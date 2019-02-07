@@ -16,7 +16,7 @@ print(tf.__version__)
 ### initial code is copied https://www.tensorflow.org/tutorials/sequences/text_generation "
 
 # path_to_file = tf.keras.utils.get_file('shakespeare.txt', 'https://storage.googleapis.com/download.tensorflow.org/data/shakespeare.txt')
-path_to_file = "lordOfTheRingsReformatted.txt"
+path_to_file = "Hamilton2.txt"
 
 ### python tutorials
 # Read, then decode for py2 compat.
@@ -203,7 +203,7 @@ checkpoint_callback=tf.keras.callbacks.ModelCheckpoint(
 
 """Execute the training"""
 
-EPOCHS=5
+EPOCHS=50
 history = model.fit(dataset.repeat(), epochs=EPOCHS, steps_per_epoch=steps_per_epoch, callbacks=[checkpoint_callback])
 
 
