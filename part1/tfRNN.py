@@ -12,7 +12,6 @@ import argparse
 import pickle
 
 #of the variables, I think only seq_length might be interesting to fiddle with
-
 def processInput(path_to_file, seq_length=100, BATCH_SIZE=64, BUFFER_SIZE=1000):
     # Read in the text
     text = open(path_to_file, 'rb').read().decode(encoding='utf-8')[:10000]

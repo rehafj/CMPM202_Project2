@@ -15,7 +15,8 @@ print(tf.__version__)
 
 ### initial code is copied https://www.tensorflow.org/tutorials/sequences/text_generation "
 
-path_to_file = tf.keras.utils.get_file('shakespeare.txt', 'https://storage.googleapis.com/download.tensorflow.org/data/shakespeare.txt')
+# path_to_file = tf.keras.utils.get_file('shakespeare.txt', 'https://storage.googleapis.com/download.tensorflow.org/data/shakespeare.txt')
+path_to_file = "lordOfTheRingsReformatted.txt"
 
 ### python tutorials
 # Read, then decode for py2 compat.
@@ -202,7 +203,7 @@ checkpoint_callback=tf.keras.callbacks.ModelCheckpoint(
 
 """Execute the training"""
 
-EPOCHS=1
+EPOCHS=5
 history = model.fit(dataset.repeat(), epochs=EPOCHS, steps_per_epoch=steps_per_epoch, callbacks=[checkpoint_callback])
 
 
@@ -218,7 +219,7 @@ model.build(tf.TensorShape([1, None]))
 
 model.summary()
 
-# maybe think of exporting this instead of running it evrtyime --- :) 
+# maybe think of exporting this instead of running it evrtyime --- :)
 def generate_text(model, start_string):
   # Evaluation step (generating text using the learned model)
 
@@ -257,7 +258,7 @@ def generate_text(model, start_string):
   return (start_string + ''.join(text_generated))
 
 
-print(generate_text(model, start_string=u"ROMEO: "))
+print(generate_text(model, start_string=u"It was"))
 
 
 
