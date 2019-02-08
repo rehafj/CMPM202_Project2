@@ -9,7 +9,6 @@ import os
 import time
 
 import argparse
-import pickle
 
 #of the variables, I think only seq_length might be interesting to fiddle with
 def processInput(path_to_file, seq_length=100, BATCH_SIZE=64, BUFFER_SIZE=1000):
@@ -170,7 +169,7 @@ def generateText(model, data, start_string, num_generate=1000, temperature=1.0):
 
   return (start_string + ''.join(text_generated))
 
-def trainAndGenerate(inputFile, model_path, start_string, pickle_model,
+def trainAndGenerate(inputFile, model_path, start_string,
                 seq_length=100, BATCH_SIZE=64, BUFFER_SIZE=1000,
                 embedding_dim=256, rnn_units=1024,
                 epochs=3, checkpoint_dir='./training_checkpoints',
@@ -229,8 +228,7 @@ if __name__== "__main__":
     inputFile = args.input_text_path
     start_string = args.start_string
     
-    model = args.pretrained_model_path
-    pickle_model = args.save_trained_model
+    model_path = args.pretrained_model_path
 
     seq_length = args.sequence_length
     batch_size = args.batch_size
@@ -245,7 +243,7 @@ if __name__== "__main__":
     temp = args.temperature
 
 
-    print(trainAndGenerate(inputFile, model, start_string, pickle_model=pickle_model,
+    print(trainAndGenerate(inputFile, model_path, start_string,
                                 seq_length=seq_length, BATCH_SIZE=batch_size, BUFFER_SIZE=buffer_size,
                                 embedding_dim=embedding_dim, rnn_units=rnn_units,
                                 epochs=epochs, checkpoint_dir=checkpoint_dir,
