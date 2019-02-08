@@ -205,7 +205,7 @@ if __name__== "__main__":
     parser.add_argument("--start_string", "-s", help="String to start generating on.")
 
     parser.add_argument("--pretrained_model_path", "-m", help="Location of pretrained_model.")
-    parser.add_argument("--save_trained_model", help="Location to save trained model.")
+    parser.add_argument("--save_trained_model", default='./training_checkpoints', help="Location to save trained model.")
 
     # preprocessing arguments:
     parser.add_argument("--sequence_length", default=100, type=int, help="Length of the context used to train the model.")
@@ -215,7 +215,7 @@ if __name__== "__main__":
 
     # model arguements:
     parser.add_argument("--epochs", "-e", default=3, type=int, help="Number of iterations to train over")
-    parser.add_argument("--checkpoint_dir", default='./training_checkpoints')
+    #parser.add_argument("--checkpoint_dir", default='./training_checkpoints')
     parser.add_argument("--embedding_dim", default=256, type=int)
     parser.add_argument("--rnn_units", default=1024, type=int)
 

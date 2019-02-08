@@ -27,4 +27,7 @@ for epochs in [1, 3, 5, 10, 15, 25]:
 		for temperature in [0.01, 0.1, 0.5, 1.0, 1.5, 2, 5, 10]
 			result[epochs][string][temperature] = trainAndGenerate(None, pickle_model_path, string, None, temperature=temperature)
 
-pp.pprint(results)
+	pp.pprint(result[epochs])
+
+print(" Final Results ")
+pp.pprint(result)
