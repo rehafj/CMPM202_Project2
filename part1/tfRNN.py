@@ -77,9 +77,10 @@ def build_model(vocab_size, embedding_dim, rnn_units, batch_size):
     ])
     return model
 
-def buildModel(data, embedding_dim=256, rnn_units=1024):
+def buildModel(data, embedding_dim=256, rnn_units=1024, BATCH_SIZE = None):
     vocab = data["vocab"]
-    BATCH_SIZE = data["BATCH_SIZE"]
+    if BATCH_SIZE == None:
+        BATCH_SIZE = data["BATCH_SIZE"]
 
     #Build the Model:
     # Length of the vocabulary in chars
@@ -99,8 +100,6 @@ def buildModel(data, embedding_dim=256, rnn_units=1024):
 def loss(labels, logits):
     return tf.keras.losses.sparse_categorical_crossentropy(labels, logits, from_logits=True)
 
-optimizer = tf.train.AdamOptimizer
-
 def trainModel(model, data, EPOCHS=3, checkpoint_dir='./training_checkpoints'):
     dataset = data["dataset"]
     steps_per_epoch = data["steps_per_epoch"]
@@ -109,7 +108,7 @@ def trainModel(model, data, EPOCHS=3, checkpoint_dir='./training_checkpoints'):
     
     #configures the training procedure 
     model.compile(
-        optimizer = optimizer, 
+        optimizer = tf.train.AdamOptimizer(), 
         loss = loss)
     
     # Name of the checkpoint files
@@ -171,28 +170,29 @@ def generateText(model, data, start_string, num_generate=1000, temperature=1.0):
 
   return (start_string + ''.join(text_generated))
 
-def trainAndGenerate(inputFile, model, start_string, pickle_model,
+def trainAndGenerate(inputFile, model_path, start_string, pickle_model,
                 seq_length=100, BATCH_SIZE=64, BUFFER_SIZE=1000,
                 embedding_dim=256, rnn_units=1024,
                 epochs=3, checkpoint_dir='./training_checkpoints',
                 num_generate=1000, temperature=1.0 ):
 
 
-    if model:
-        checkpoint = tf.train.Checkpoint(optimizer=optimizer, model=model)
-        checkpoint.restore(tf.train.latest_checkpoint(model))
+    if not inputFile:
+        inputFile = tf.keras.utils.get_file('shakespeare.txt', 'https://storage.googleapis.com/download.tensorflow.org/data/shakespeare.txt')
+
+    data = processInput(inputFile, seq_length=seq_length, BATCH_SIZE=BATCH_SIZE, BUFFER_SIZE=BUFFER_SIZE)
+
+    
+    if model_path:
+        model = buildModel(data, embedding_dim=embedding_dim, rnn_units=rnn_units, BATCH_SIZE=1)
+        model.load_weights(tf.train.latest_checkpoint(model_path))
     else:
-        if not inputFile:
-            inputFile = tf.keras.utils.get_file('shakespeare.txt', 'https://storage.googleapis.com/download.tensorflow.org/data/shakespeare.txt')
-
-        data = processInput(inputFile, seq_length=seq_length, BATCH_SIZE=BATCH_SIZE, BUFFER_SIZE=BUFFER_SIZE)
-
         model = buildModel(data, embedding_dim=embedding_dim, rnn_units=rnn_units)
         model = trainModel(model, data, EPOCHS=epochs, checkpoint_dir=checkpoint_dir)
 
-        if pickle_model:
-            checkpoint = tf.train.Checkpoint(optimizer=optimizer, model=model)
-            checkpoint.save(pickle_model)
+        # if pickle_model:
+        #     checkpoint = tf.train.Checkpoint(optimizer=optimizer, model=model)
+        #     checkpoint.save(pickle_model)
 
     if start_string:
         return generateText(model, data, start_string, num_generate=num_generate, temperature=temperature)
@@ -239,7 +239,7 @@ if __name__== "__main__":
     embedding_dim = args.embedding_dim
     rnn_units = args.rnn_units
     epochs = args.epochs
-    checkpoint_dir = args.checkpoint_dir
+    checkpoint_dir = args.save_trained_model
 
     output_length = args.output_length
     temp = args.temperature
