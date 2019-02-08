@@ -7,9 +7,16 @@
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
-
-
-# load images in cvs file seperated by ","  - ignoring first col
-
-# np.loadtxt('fashion-mnist_train.csv',\
-#                   delimiter=',', skiprows=1)[:,1:]
+# #
+#
+# # load images in cvs file seperated by ","  - ignoring first col
+#
+# # np.loadtxt('fashion-mnist_train.csv',\
+# #                   delimiter=',', skiprows=1)[:,1:]
+# #
+# #
+# # #loading the images
+# # all_images = np.loadtxt('fashion-mnist_train.csv',\
+# #                   delimiter=',', skiprows=1)[:,1:]
+# # #looking at the shape of the file
+# # print(all_images.shape)
