@@ -24,6 +24,10 @@ VAL_NOISY_DATASET_PATH ='dataset/val/noisy'
 CKPT_DIR = './Checkpoints/'
 GRAPH_DIR = './Graphs/'
 
+def changeCKPT_DIR(newFolder):
+    global CKPT_DIR
+    CKPT_DIR = newFolder
+
 def initialize(sess):
     saver = tf.train.Saver()
     writer = tf.summary.FileWriter(GRAPH_DIR, sess.graph)

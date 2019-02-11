@@ -6,7 +6,7 @@ from utils import *
 from model import *
 
 
-def train(train_noisy_images, train_gt_images, val_noisy_images, val_gt_images):
+def train(train_noisy_images, train_gt_images, val_noisy_images, val_gt_images, filters=32, kernal_size=3):
     tf.reset_default_graph()
 
     global_step = tf.Variable(0, dtype=tf.int32, trainable=False, name='global_step')
@@ -14,7 +14,7 @@ def train(train_noisy_images, train_gt_images, val_noisy_images, val_gt_images):
     training_noisy_data = tf.placeholder(tf.float32, [None, IMAGE_HEIGHT, IMAGE_WIDTH, N_CHANNEL])
     training_gt_data = tf.placeholder(tf.float32, [None, IMAGE_HEIGHT, IMAGE_WIDTH, N_CHANNEL])
     
-    output = neural_network_with_skip_connections(training_noisy_data)
+    output = neural_network_with_skip_connections(training_noisy_data, filters, kernal_size)
 
     loss = tf.reduce_mean(tf.losses.absolute_difference(labels=training_gt_data, predictions=output))
     optimizer = tf.train.AdamOptimizer(LEARNING_RATE).minimize(loss, global_step=global_step)
@@ -43,6 +43,22 @@ def train(train_noisy_images, train_gt_images, val_noisy_images, val_gt_images):
                 for i, (noisy_image, val_output_image) in enumerate(zip(val_noisy_images, val_output)):
                     scipy.misc.imsave("validation_results/"+str(i)+"_input_noisy.jpg", noisy_image)
                     scipy.misc.imsave("validation_results/"+str(i)+"_output_denoised.jpg", val_output_image)
+
+def loadAndTrain(filters=32, kernal_size=3):
+    train_noisy_images = load_data(TRAIN_NOISY_DATASET_PATH)
+    train_gt_images = load_data(TRAIN_GT_DATASET_PATH)
+
+    val_noisy_images = load_data(VAL_NOISY_DATASET_PATH)
+    val_gt_images = load_data(VAL_GT_DATASET_PATH)
+
+    print(train_noisy_images.shape)
+    print(train_gt_images.shape)
+
+    print(val_noisy_images.shape)
+    print(val_gt_images.shape)
+
+
+    train(train_noisy_images, train_gt_images, val_noisy_images, val_gt_images)
 
 
 if __name__ == "__main__":

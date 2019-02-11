@@ -8,7 +8,7 @@ from utils import *
 from model import *
 
 
-def test(image_path):
+def test(image_path, resultFoulder="test_results", outputNumber=0):
 
     test_image = scipy.misc.imresize(scipy.misc.imread(image_path, mode='RGB').astype('float32'),(IMAGE_HEIGHT, IMAGE_WIDTH))
     test_image = np.expand_dims(test_image, 0)
@@ -24,10 +24,10 @@ def test(image_path):
 
     test_output = sess.run(output, feed_dict={test_data: test_image})
 
-    scipy.misc.imsave("test_results/input_noisy.jpg", test_image[0])
-    scipy.misc.imsave("test_results/output_denoised.jpg", test_output[0])
+    scipy.misc.imsave(resultFoulder+"/%s_input_noisy.jpg"%outputNumber, test_image[0])
+    scipy.misc.imsave(resultFoulder+"/%s_output_denoised.jpg"%outputNumber, test_output[0])
 
-    print("Output saved in test_results/")
+    print("Output saved in %s/"%resultFoulder)
 
 if __name__ == "__main__":
     image_path = sys.argv[1]

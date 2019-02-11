@@ -20,3 +20,6 @@ import matplotlib.pyplot as plt
 # #                   delimiter=',', skiprows=1)[:,1:]
 # # #looking at the shape of the file
 # # print(all_images.shape)
+
+
+#testing?
