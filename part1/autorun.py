@@ -10,9 +10,7 @@ pickle = ".pickle"
 
 
 results = {}
-for inputFileModelName in [("lordOfTheRingsReformatted.txt", "LOTR_model", [ "Frodo ", "Sam", "When ", "It was", "As for ", "Mr. Bilbo Baggins ", "All that day "]),
-	("Hamilton2.txt", "musical_model", [ "[HAMILTON]", "[ELIZA]", "[BURR]", "[COMPANY]", "[WASHINGTON]", "[LAFAYETTE]", "[HAMILTON/"]),
-	("GameOfThrones.txt", "GOT_model", [ "His father ", "Ned grimaced ", "Now it was ", "It was", "Ben Stark ", "She saw ", "Joffrey "])]:
+for inputFileModelName in [("lordOfTheRingsReformatted.txt", "LOTR_model", [ "Frodo ", "Sam", "When ", "It was", "As for ", "Mr. Bilbo Baggins ", "All that day "]),("Hamilton2.txt", "musical_model", [ "[HAMILTON]", "[ELIZA]", "[BURR]", "[COMPANY]", "[WASHINGTON]", "[LAFAYETTE]", "[HAMILTON/"]),("GameOfThrones.txt", "GOT_model", [ "His father ", "Ned grimaced ", "Now it was ", "It was", "Ben Stark ", "She saw ", "Joffrey "])]:
 
 	inputFile=inputFileModelName[0]
 	pickle_model = inputFileModelName[1]
@@ -33,5 +31,7 @@ for inputFileModelName in [("lordOfTheRingsReformatted.txt", "LOTR_model", [ "Fr
 
 		pp.pprint(results[pickle_model][epochs])
 
+	#
+	# trainAndGenerate(inputFile="Hamilton2.txt", model_path=None, start_string="[HAMILTON]", seq_length=100, BATCH_SIZE=64, BUFFER_SIZE=1000, embedding_dim=256, rnn_units=1024, epochs=3, num_generate=1000, checkpoint_dir='./training_checkpoints', temperature=1.0)
 print(" Final Results ")
 pp.pprint(results)
