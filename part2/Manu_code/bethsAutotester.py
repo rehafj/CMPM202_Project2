@@ -3,8 +3,8 @@ import test
 import utils
 import os
 
-for filterNum in [12, 32, 64]:
-	for kernalSize in [3, 5, 7]:
+for filterNum in [64]:
+	for kernalSize in [5]:
 		utils.changeCKPT_DIR('./Checkpoints/filter-%s_kernal-%s/'%(filterNum, kernalSize))
 		train.loadAndTrain(filters=filterNum, kernal_size=kernalSize)
 

@@ -99,7 +99,7 @@ def buildModel(data, embedding_dim=256, rnn_units=1024, BATCH_SIZE = None):
 def loss(labels, logits):
     return tf.keras.losses.sparse_categorical_crossentropy(labels, logits, from_logits=True)
 
-def trainModel(model, data, EPOCHS=3, checkpoint_dir='./training_checkpoints'):
+def trainModel(model, data, EPOCHS=3, checkpoint_dir='./training_checkpoints', embedding_dim=256,  rnn_units=1024):
     dataset = data["dataset"]
     steps_per_epoch = data["steps_per_epoch"]
     vocab_size = len(data["vocab"])
@@ -187,7 +187,7 @@ def trainAndGenerate(inputFile, model_path, start_string,
         model.load_weights(tf.train.latest_checkpoint(model_path))
     else:
         model = buildModel(data, embedding_dim=embedding_dim, rnn_units=rnn_units)
-        model = trainModel(model, data, EPOCHS=epochs, checkpoint_dir=checkpoint_dir)
+        model = trainModel(model, data, EPOCHS=epochs, checkpoint_dir=checkpoint_dir, embedding_dim=embedding_dim, rnn_units=rnn_units)
 
         # if pickle_model:
         #     checkpoint = tf.train.Checkpoint(optimizer=optimizer, model=model)

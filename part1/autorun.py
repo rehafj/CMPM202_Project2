@@ -18,20 +18,20 @@ for inputFileModelName in [("lordOfTheRingsReformatted.txt", "LOTR_model", [ "Fr
 	pickle_model = inputFileModelName[1]
 	string_starts = inputFileModelName[2]
 
-	result[pickle_model] = {}
+	results[pickle_model] = {}
 	for epochs in [1, 3, 5, 10, 15, 25]:
 		test_name = "%s_e%s"%(pickle_model, epochs)
 		pickle_model_path = modelsFolder+test_name+pickle
 		trainAndGenerate(inputFile, None, None,
 		                epochs=epochs, checkpoint_dir=pickle_model_path )
 
-		result[pickle_model][epochs] = {}
+		results[pickle_model][epochs] = {}
 		for string in string_starts:
-			result[pickle_model][epochs][string] = {}
-			for temperature in [0.01, 0.1, 0.5, 1.0, 1.5, 2, 5, 10]
-				result[pickle_model][epochs][string][temperature] = trainAndGenerate(None, pickle_model_path, string, temperature=temperature, seq_length=10000)
+			results[pickle_model][epochs][string] = {}
+			for temperature in [0.01, 0.1, 0.5, 1.0, 1.5, 2, 5, 10]:
+				results[pickle_model][epochs][string][temperature] = trainAndGenerate(inputFile, pickle_model_path, string, temperature=temperature, seq_length=10000)
 
-		pp.pprint(result[pickle_model][epochs])
+		pp.pprint(results[pickle_model][epochs])
 
 print(" Final Results ")
-pp.pprint(result)
+pp.pprint(results)
