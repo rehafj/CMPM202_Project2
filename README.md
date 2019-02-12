@@ -70,9 +70,56 @@ Before training the model ( using the focus based model ) resulted in
 
  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/pretraining.png" height ="200" width="200"> 
 
-**test one**
+### test 1 and 2, defined below
 Running the modeThis test was a CPU based test and training the model for 8 hours. 
-l with 10k iterations, 32 filters and 3 batch size resulted in: 
+
+pixelated input images: 
+
+<p float="left">
+    <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test2/16p.jpg" height="200" width="200" /> 
+
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test2/7p.jpg" height="200" width="200" />
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test2/0p.jpg" height="200" width="200" /> 
+</p>
+
+
+output resultS: 
+
+Test 1  | Test 2
+:-------------------------:|:-------------------------:
+9k iterations, 32 filters, 3 batch| 9k iterations, 62 filters, 5 batch 
+![](sample_results/test1/0depixelated.jpg)  |  ![](sample_results/test2/16dp.jpg)
+![](sample_results/test1/12dp.jpg)   | ![](sample_results/test2/7dp.jpg)
+![](sample_results/test1/6dp.jpg) |  ![](sample_results/test2/odp.jpg)
+
+### test 0 
+Test 0: 100k iterations, 32 filters and 3 batch size
+Original image, pixelated input, de-pixelized output
+<p float="left">
+    <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/cat%20sample/2.jpg" height="200" width="200" /> 
+
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/cat%20sample/input_p.jpg" height="200" width="200" />
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/cat%20sample/output_d.jpg" height="200" width="200" /> 
+</p>
+
+<p float="left">
+    <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/cat%20sample/2.jpg" height="200" width="200" /> 
+
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/cat%20sample/1p.jpg" height="200" width="200" />
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/cat%20sample/1dp.jpg" height="200" width="200" /> 
+</p>
+
+
+
+<p float="left">
+    <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/cat%20sample/2.jpg" height="200" width="200" /> 
+
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/cat%20sample/6p.jpg" height="200" width="200" />
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/cat%20sample/6dp.jpg" height="200" width="200" /> 
+</p>
+
+
+
 
 
 
