@@ -1,2 +1,0 @@
-model_checkpoint_path: "shakespeare_model.pickle-1"
-all_model_checkpoint_paths: "shakespeare_model.pickle-1"
