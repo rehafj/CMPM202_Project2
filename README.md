@@ -49,6 +49,13 @@ Sam darkness.
   
   
   
+  with Epoch 25: 
+ > 'As for the Enemy. I know where he is dear than you '
+                        'look like home. Mr. Bilbo has len the words of Sauron '
+                        'at the end of the loct the room. He drew out a sound '
+                        'of many families, and a great store of peace shall I '
+                        'pass through the dark, and though it was waiting on '
+                        'the shore, a small ind on the far shore. \r\n'
 **Hamilton**
 
 
@@ -105,7 +112,7 @@ with Epoch = 25, 10k char
 In part Two of the project, we altred an autoencoder provided in class by Manu Tomas, @manumathewthomas. Our goal was to train the model to smooth out pixel images. 
 We modified a pixellating python script and created a pixilated data set  to use along with a clear data set. 
 
-The data set includes more cat:cat: images than standard images thus the model was better trained against cat images as the results would suggest. We also discovered that photos with a definite object in its focus result in a better un-pixelized photo, while pictures that include a scenery or background object were still pixelated in comparison. 
+The data set includes more cat:cat: images than standard images, our trained model might be biased towards cats, other image samples were included though (just less). We also discovered that photos with a definite object in its focus result in a better un-pixelized photo, while pictures that include a scenery or background object were still pixelated in comparison. 
 
 
 ### running the code: 
@@ -152,7 +159,7 @@ Test 1  | Test 2
 
 
 
-### test 0 
+### test 0 , samples with full images and the largest iterations
 
 Test 0: 100k iterations, 32 filters and 3 batch size
 Original image, pixelated input, de-pixelized output
@@ -181,6 +188,29 @@ Original image, pixelated input, de-pixelized output
     <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/4107.jpg" height="200" width="200" /> 
   <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/12p.jpg" height="200" width="200" />
   <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/12dp.jpg" height="200" width="200" /> 
+</p>
+
+
+### last model tested with 16k iterations
+
+<p float="left">
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test3/37p.jpg" height="200" width="200" />
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test3/37dp.jpg" height="200" width="200" /> 
+</p>
+
+<p float="left">
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test3/38p.jpg" height="200" width="200" />
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test3/38dp.jpg" height="200" width="200" /> 
+</p>
+
+<p float="left">
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test3/39p.jpg" height="200" width="200" />
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test3/39dp.jpg" height="200" width="200" /> 
+</p>
+
+<p float="left">
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test3/40p.jpg" height="200" width="200" />
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test3/40dp.jpg" height="200" width="200" /> 
 </p>
 
 
