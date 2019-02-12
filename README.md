@@ -50,6 +50,10 @@ Sam darkness.
   
   
 **Hamilton**
+
+
+
+**Hamilton and Wicked**
 with Epoch = 5, 10k char 
 
 
@@ -91,9 +95,6 @@ with Epoch = 5, 10k char
 
 
 with Epoch = 25, 10k char 
-
-
-**Hamilton and Wicked**
 
 
 **Game of thrones**
