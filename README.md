@@ -146,7 +146,7 @@ surprisingly, results 1 showed less pixelated images than test 2
 
 Test 1  | Test 2
 :-------------------------:|:-------------------------:
-9k iterations, 32 filters, 3 batch| 9k iterations, 62 filters, 5 batch 
+9k iterations, 32 filters, 3 kernal| 9k iterations, 62 filters, 5 kernal 
 ![](sample_results/test1/0depixelated.jpg)  |  ![](sample_results/test2/16dp.jpg)
 ![](sample_results/test1/12dp.jpg)   | ![](sample_results/test2/7dp.jpg)
 ![](sample_results/test1/6dp.jpg) |  ![](sample_results/test2/odp.jpg)
@@ -155,7 +155,7 @@ Test 1  | Test 2
 
 ### test 0 , samples with full images and the largest iterations
 
-Test 0: 100k iterations, 32 filters and 3 batch size
+Test 0: 100k iterations, 32 filters and 3 kernal size
 Original image, pixelated input, de-pixelized output
 <p float="left">
     <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/cat%20sample/2.jpg" height="200" width="200" /> 
