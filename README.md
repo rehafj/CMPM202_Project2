@@ -1,5 +1,5 @@
 # CMPM202 classProject 
-## about: 
+## About: 
 This project includes two parts,  a recurrent neural network, and an autoencoder modified for class purposes.
 please see the descriptions below for both parts. 
 
@@ -18,6 +18,13 @@ All text is formatted in a way that fits its category; as an example, we formatt
 
 ### running the code: 
 
+To run part one of the project, please install the required dependencies mainly *tensorflow*(1.2), *numpy* and *nightlye* for compatibility issues and traverse into part one of the directory. 
+
+```
+install pip  install -q tf-nightlye
+```
+
+to run all the samples mentioned above, run the **_autorun.py_** script without any parameters 
 
 ### Sample output: 
 **Lord of the rings**
@@ -39,3 +46,44 @@ The fingents of the Loddless of the meapon of the open southwards. But we is sti
 
 
 **Game of thrones**
+
+
+## part2 - Autoencoder and un-pixelating images 
+
+In part Two of the project, we altred an autoencoder provided in class by Manu Tomas, @manumathewthomas. Our goal was to train the model to smooth out pixel images. 
+We modified a pixellating python script and created a pixilated data set  to use along with a clear data set. 
+
+The data set includes more cat:cat: images than standard images thus the model was better trained against cat images as the results would suggest. We also discovered that photos with a definite object in its focus result in a better un-pixelized photo, while pictures that include a scenery or background object were still pixelated in comparison. 
+
+
+### running the code: 
+
+If you would like to train the model with a different set of images, please nest them appropriately under dataset/train, dataset/val, and dataset/test ( both pixelated and clear images should be provided), then run``` bethsAutotester.py ```
+
+To use it against our trained model, please run the script: 
+
+``` ... ```
+
+### results:
+
+Before training the model ( using the focus based model ) resulted in 
+
+ <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/pretraining.png" height ="200" width="200"> 
+
+**test one**
+Running the modeThis test was a CPU based test and training the model for 8 hours. 
+l with 10k iterations, 32 filters and 3 batch size resulted in: 
+
+
+
+
+
+## Credit and resources: 
+ Text gen tutorial: https://www.tensorflow.org/tutorials/sequences/text_generation
+ autoencoder base code by @manumathewthomas:https://github.com/manumathewthomas
+ Original pixelation code:  https://gist.github.com/danyshaanan/6754465
+ 
+### team members: 
+Elisabeth Oliver @bluestar514 and Rehaf jammaz
+
+
