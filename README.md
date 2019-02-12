@@ -56,9 +56,6 @@ Sam darkness.
                         'of many families, and a great store of peace shall I '
                         'pass through the dark, and though it was waiting on '
                         'the shore, a small ind on the far shore. \r\n'
-**Hamilton**
-
-
 
 **Hamilton and Wicked**
 with Epoch = 5, 10k char 
@@ -99,6 +96,15 @@ with Epoch = 25, 10k char
                                    " You can't! Spells are irreversible! I "
 
 **Game of thrones**
+
+> 'Now it was the first time. He could not make a '
+                            'doubtful from the bench. He could see the anger '
+                            'in the rocks. They were still and the stableboys '
+                            'had been found there was nothing to do the words '
+                            'to the room. “I don’t know my father and I might '
+                            'say a man to save them to them. “What are you '
+                            'come to kill a king. He wanted to know that '
+                            'always be a man with a time to you.”\n'
 
 
 ## part2 - Autoencoder and un-pixelating images 
