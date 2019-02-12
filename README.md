@@ -84,6 +84,7 @@ pixelated input images:
 
 
 output resultS: 
+surprisingly, results 1 showed less pixelated images than test 2
 
 Test 1  | Test 2
 :-------------------------:|:-------------------------:
@@ -103,7 +104,7 @@ Original image, pixelated input, de-pixelized output
 </p>
 
 <p float="left">
-    <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/cat%20sample/2.jpg" height="200" width="200" /> 
+    <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/4116.jpg" height="200" width="200" /> 
   <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/1p.jpg" height="200" width="200" />
   <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/1dp.jpg" height="200" width="200" /> 
 </p>
@@ -111,10 +112,20 @@ Original image, pixelated input, de-pixelized output
 
 
 <p float="left">
-    <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/cat%20sample/2.jpg" height="200" width="200" /> 
+    <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/4100.jpg" height="200" width="200" /> 
   <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/6p.jpg" height="200" width="200" />
   <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/6dp.jpg" height="200" width="200" /> 
 </p>
+
+
+<p float="left">
+    <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/4116.jpg" height="200" width="200" /> 
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/12p.jpg" height="200" width="200" />
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/12dp.jpg" height="200" width="200" /> 
+</p>
+
+
+
 
 
 
