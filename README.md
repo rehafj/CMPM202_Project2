@@ -104,18 +104,16 @@ Original image, pixelated input, de-pixelized output
 
 <p float="left">
     <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/cat%20sample/2.jpg" height="200" width="200" /> 
-
-  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/cat%20sample/1p.jpg" height="200" width="200" />
-  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/cat%20sample/1dp.jpg" height="200" width="200" /> 
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/1p.jpg" height="200" width="200" />
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/1dp.jpg" height="200" width="200" /> 
 </p>
 
 
 
 <p float="left">
     <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/cat%20sample/2.jpg" height="200" width="200" /> 
-
-  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/cat%20sample/6p.jpg" height="200" width="200" />
-  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/cat%20sample/6dp.jpg" height="200" width="200" /> 
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/6p.jpg" height="200" width="200" />
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/6dp.jpg" height="200" width="200" /> 
 </p>
 
 
