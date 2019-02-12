@@ -10,7 +10,7 @@ import cv2
 N_CHANNEL = 3
 LEARNING_RATE = 0.001
 BATCH_SIZE = 5
-N_ITERATION = 9000 #10000
+N_ITERATION = 17000 #10000
 IMAGE_WIDTH = 256
 IMAGE_HEIGHT = 180
 IMAGE_EXT ='jpg'
@@ -34,13 +34,13 @@ def initialize(sess):
 
     if not os.path.exists(CKPT_DIR):
         os.makedirs(CKPT_DIR)
-    
+
     ckpt = tf.train.get_checkpoint_state(os.path.dirname(CKPT_DIR))
     if ckpt and ckpt.model_checkpoint_path:
         saver.restore(sess, ckpt.model_checkpoint_path)
 
     return saver
-    
+
 def shuffle_in_unison(a, b):
      n_elem = a.shape[0]
      indices = np.random.permutation(n_elem)
@@ -57,7 +57,7 @@ def load_data(dataset_path):
     image_array=[]
 
     file_list = glob.glob(dataset_path + '/*.'+IMAGE_EXT)
-  
+
     temp_image_array = np.array([np.array(scipy.misc.imresize(scipy.misc.imread(file_name, mode='RGB').astype('float32'),(IMAGE_HEIGHT, IMAGE_WIDTH))) for file_name in file_list])
     temp_image_array = temp_image_array/255.
 
@@ -71,21 +71,15 @@ def add_gaussian_noise(X_imgs):
     row = X_imgs[0].shape[0]
     col = X_imgs[0].shape[1]
     channel = X_imgs[0].shape[2]
-    
+
     # Gaussian distribution parameters
     mean = 0
     var = 0.1
     sigma = var ** 0.5
-    
+
     for X_img in X_imgs:
         gaussian = np.random.random((row, col, channel))
         gaussian_img = cv2.addWeighted(X_img, 0.75, 0.50 * gaussian, 0.25, 0)
         gaussian_noise_imgs.append(gaussian_img)
     gaussian_noise_imgs = np.array(gaussian_noise_imgs, dtype = np.float32)
     return gaussian_noise_imgs
-  
-
-
-
-
-

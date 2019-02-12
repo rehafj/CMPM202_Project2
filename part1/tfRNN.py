@@ -23,7 +23,7 @@ def processInput(path_to_file, seq_length=100, BATCH_SIZE=64, BUFFER_SIZE=1000):
     idx2char = np.array(vocab) # makes the reverse, mapping from integer to associated character
     text_as_int = np.array([char2idx[c] for c in text]) # encodes the sample text according to the above mapping
 
-    
+
     # Create training examples / targets
     char_dataset = tf.data.Dataset.from_tensor_slices(text_as_int) # seems to convert the numpy array into a "stream"
     sequences = char_dataset.batch(seq_length+1, drop_remainder=True) # creates a series of strings(?) of length seq_length+1
@@ -33,7 +33,7 @@ def processInput(path_to_file, seq_length=100, BATCH_SIZE=64, BUFFER_SIZE=1000):
         target_text = chunk[1:]
         return input_text, target_text
 
-    dataset = sequences.map(split_input_target) # turns the strings of length seq_length+1 into 
+    dataset = sequences.map(split_input_target) # turns the strings of length seq_length+1 into
                                                 # the input and target strings of the desired length
 
     # Creating Training Batches:
@@ -86,9 +86,9 @@ def buildModel(data, embedding_dim=256, rnn_units=1024, BATCH_SIZE = None):
     vocab_size = len(vocab)
 
     model = build_model(
-              vocab_size = len(vocab), 
-              embedding_dim=embedding_dim, 
-              rnn_units=rnn_units, 
+              vocab_size = len(vocab),
+              embedding_dim=embedding_dim,
+              rnn_units=rnn_units,
               batch_size=BATCH_SIZE)
 
     model.summary()
@@ -104,15 +104,11 @@ def trainModel(model, data, EPOCHS=3, checkpoint_dir='./training_checkpoints', e
     steps_per_epoch = data["steps_per_epoch"]
     vocab_size = len(data["vocab"])
 
-    
-    print("steps_per_epoch: %s"%steps_per_epoch)
-    print("vocab_size: %s"%vocab_size)
-    
-    #configures the training procedure 
+    #configures the training procedure
     model.compile(
-        optimizer = tf.train.AdamOptimizer(), 
+        optimizer = tf.train.AdamOptimizer(),
         loss = loss)
-    
+
     # Name of the checkpoint files
     checkpoint_prefix = os.path.join(checkpoint_dir, "ckpt_{epoch}")
 
@@ -130,10 +126,10 @@ def trainModel(model, data, EPOCHS=3, checkpoint_dir='./training_checkpoints', e
     model.load_weights(tf.train.latest_checkpoint(checkpoint_dir))
     model.build(tf.TensorShape([1, None]))
 
-    
+
     model.summary()
 
-    
+
     return model
 
 
@@ -184,7 +180,7 @@ def trainAndGenerate(inputFile, model_path, start_string,
 
     data = processInput(inputFile, seq_length=seq_length, BATCH_SIZE=BATCH_SIZE, BUFFER_SIZE=BUFFER_SIZE)
 
-    
+
     if model_path:
         model = buildModel(data, embedding_dim=embedding_dim, rnn_units=rnn_units, BATCH_SIZE=1)
         model.load_weights(tf.train.latest_checkpoint(model_path))
@@ -230,7 +226,7 @@ if __name__== "__main__":
     args = parser.parse_args()
     inputFile = args.input_text_path
     start_string = args.start_string
-    
+
     model_path = args.pretrained_model_path
 
     seq_length = args.sequence_length
@@ -251,5 +247,3 @@ if __name__== "__main__":
                                 embedding_dim=embedding_dim, rnn_units=rnn_units,
                                 epochs=epochs, checkpoint_dir=checkpoint_dir,
                                 num_generate=output_length, temperature=temp ))
-
-    

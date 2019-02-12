@@ -13,7 +13,7 @@ def train(train_noisy_images, train_gt_images, val_noisy_images, val_gt_images, 
 
     training_noisy_data = tf.placeholder(tf.float32, [None, IMAGE_HEIGHT, IMAGE_WIDTH, N_CHANNEL])
     training_gt_data = tf.placeholder(tf.float32, [None, IMAGE_HEIGHT, IMAGE_WIDTH, N_CHANNEL])
-    
+
     output = neural_network_with_skip_connections(training_noisy_data, filters, kernal_size)
 
     loss = tf.reduce_mean(tf.losses.absolute_difference(labels=training_gt_data, predictions=output))
@@ -21,15 +21,15 @@ def train(train_noisy_images, train_gt_images, val_noisy_images, val_gt_images, 
 
     with tf.Session() as sess:
         sess.run(tf.global_variables_initializer())
-        
+
         saver = initialize(sess)
 
         initial_step = global_step.eval()
-    
+
         for index in range(initial_step, N_ITERATION):
             # print("Iteration "+ str(index))
             random_indices = get_random_indices(train_noisy_images.shape[0], BATCH_SIZE)
-            
+
             noisy_batch = np.take(train_noisy_images, random_indices, 0)
             gt_batch = np.take(train_gt_images, random_indices, 0)
 
@@ -76,4 +76,3 @@ if __name__ == "__main__":
 
 
     train(train_noisy_images, train_gt_images, val_noisy_images, val_gt_images)
-    

@@ -7,9 +7,7 @@ pp = pprint.PrettyPrinter(indent=4)
 modelsFolder = "models/"
 
 results = {}
-for inputFileModelName in [("lordOfTheRingsReformatted.txt", "LOTR_model", [ "Frodo ", "Sam", "When ", "It was", "As for ", "Mr. Bilbo Baggins ", "All that day "]),
-	("Hamilton2.txt", "musical_model", [ "[HAMILTON]", "[ELIZA]", "[BURR]", "[COMPANY]", "[WASHINGTON]", "[LAFAYETTE]", "[HAMILTON/"]),
-	("GameOfThrones.txt", "GOT_model", [ "His father ", "Ned grimaced ", "Now it was ", "It was", "Ben Stark ", "She saw ", "Joffrey "])]:
+for inputFileModelName in [("lordOfTheRingsReformatted.txt", "LOTR_model", [ "Frodo ", "Sam", "When ", "It was", "As for ", "Mr. Bilbo Baggins ", "All that day "]),("Hamilton2.txt", "musical_model", [ "[HAMILTON]", "[ELIZA]", "[BURR]", "[COMPANY]", "[WASHINGTON]", "[LAFAYETTE]", "[HAMILTON/"]),("GameOfThrones.txt", "GOT_model", [ "His father ", "Ned grimaced ", "Now it was ", "It was", "Ben Stark ", "She saw ", "Joffrey "])]:
 
 	inputFile=inputFileModelName[0]
 	pickle_model = inputFileModelName[1]
