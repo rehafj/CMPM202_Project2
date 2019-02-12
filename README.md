@@ -60,9 +60,11 @@ The data set includes more cat:cat: images than standard images thus the model w
 
 If you would like to train the model with a different set of images, please nest them appropriately under dataset/train, dataset/val, and dataset/test ( both pixelated and clear images should be provided), then run``` bethsAutotester.py ```
 
-To use it against our trained model, please run the script: 
+To use it against our trained model, please run the script from the part 2 folder: 
 
-``` ... ```
+``` 
+python test.py path/to/pixelatedFile.jpg 
+```
 
 ### results:
 
