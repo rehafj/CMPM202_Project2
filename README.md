@@ -50,7 +50,47 @@ Sam darkness.
   
   
 **Hamilton**
+with Epoch = 5, 10k char 
 
+
+ > In New York you can be a new mangelica]\n'
+                       " Gasps. My heart feels like it's a little perky."
+                       
+                       '[linda]
+                       ' Oh, how very kind, Biq.\n'
+                       
+                       '[Angelica]'
+                       ' Elphaba, do something!'
+                       
+                       [HAMILTON]
+                       'I can do anything I want. I am the Wicked '
+                       "Witch of the know why you're so despondiary, I thought "
+                       'it wenterful things another way.\n'
+                       
+                       '[Ozia]
+                       "WO KNOW WHAT I'LL KNOW WHOME TO BRING HER...\n"
+                       
+                       '[HAMILTON]'
+                       ' What?! What are you doing?\n'
+                       
+                       '[BURR]'
+                       " I'll me Doctor Dillamond, are you alright? Don't be "
+                       'discoudance in two can only were the only way to-'
+                       
+                       '[HAMILTON/BURR/MULLIGAN/LAURENS/LAFAYETTE]'
+                       'Rise up! 
+                       
+                       [ELIZA/ANGELICA/PEGGY]'
+                       'Whoa, whoa, whoa...'
+                       
+                       '[ELIZA]'
+                       'Helpless...'
+                       
+                       '[ANGELICA]'
+                       'And I know you so longy side of the war\n'
+
+
+with Epoch = 25, 10k char 
 
 
 **Hamilton and Wicked**
