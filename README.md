@@ -24,7 +24,7 @@ To run part one of the project, please install the required dependencies mainly 
 install pip  install -q tf-nightlye
 ```
 
-to run all the samples mentioned above, run the **_autorun.py_** script without any parameters 
+to run all the samples mentioned above, run the ``` python autorun.py_  ``` script without any parameters 
 
 ### Sample output: 
 **Lord of the rings**
@@ -58,7 +58,10 @@ The data set includes more cat:cat: images than standard images thus the model w
 
 ### running the code: 
 
-If you would like to train the model with a different set of images, please nest them appropriately under dataset/train, dataset/val, and dataset/test ( both pixelated and clear images should be provided), then run``` bethsAutotester.py ```
+If you would like to train the model with a different set of images, please nest them appropriately under dataset/train, dataset/val, and dataset/test ( both pixelated and clear images should be provided), then run
+``` 
+python bethsAutotester.py 
+```
 
 To use it against our trained model, please run the script from the part 2 folder: 
 
@@ -95,7 +98,10 @@ Test 1  | Test 2
 ![](sample_results/test1/12dp.jpg)   | ![](sample_results/test2/7dp.jpg)
 ![](sample_results/test1/6dp.jpg) |  ![](sample_results/test2/odp.jpg)
 
+
+
 ### test 0 
+
 Test 0: 100k iterations, 32 filters and 3 batch size
 Original image, pixelated input, de-pixelized output
 <p float="left">
@@ -112,7 +118,6 @@ Original image, pixelated input, de-pixelized output
 </p>
 
 
-
 <p float="left">
     <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/4100.jpg" height="200" width="200" /> 
   <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/6p.jpg" height="200" width="200" />
@@ -125,14 +130,6 @@ Original image, pixelated input, de-pixelized output
   <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/12p.jpg" height="200" width="200" />
   <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/12dp.jpg" height="200" width="200" /> 
 </p>
-
-
-
-
-
-
-
-
 
 
 
