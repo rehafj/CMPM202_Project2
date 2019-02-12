@@ -64,45 +64,39 @@ Sam darkness.
 with Epoch = 5, 10k char 
 
 
- > In New York you can be a new mangelica]\n'
+ >
+ 
+                       In New York you can be a new mangelica]\n'
                        " Gasps. My heart feels like it's a little perky."
-                       
                        '[linda]
-                       ' Oh, how very kind, Biq.\n'
-                       
+                       ' Oh, how very kind, Biq.\n' 
                        '[Angelica]'
                        ' Elphaba, do something!'
-                       
                        [HAMILTON]
-                       'I can do anything I want. I am the Wicked '
-                       "Witch of the know why you're so despondiary, I thought "
-                       'it wenterful things another way.\n'
+                      I can do anything I want. I am the Wicked '
                        
-                       '[Ozia]
-                       "WO KNOW WHAT I'LL KNOW WHOME TO BRING HER...\n"
-                       
-                       '[HAMILTON]'
-                       ' What?! What are you doing?\n'
-                       
-                       '[BURR]'
-                       " I'll me Doctor Dillamond, are you alright? Don't be "
-                       'discoudance in two can only were the only way to-'
-                       
-                       '[HAMILTON/BURR/MULLIGAN/LAURENS/LAFAYETTE]'
-                       'Rise up! 
-                       
-                       [ELIZA/ANGELICA/PEGGY]'
-                       'Whoa, whoa, whoa...'
-                       
-                       '[ELIZA]'
-                       'Helpless...'
-                       
-                       '[ANGELICA]'
-                       'And I know you so longy side of the war\n'
-
 
 with Epoch = 25, 10k char 
 
+> 
+
+                                   REALLY HOPE YOU GET IT\n'
+                                   "AND YOU DON'T LIVE TO LAHamilton]\n"
+                                   ' They are onle veod anymore! Your whole '
+                                   'life is going to change... and all because '
+                                   'of me. Okay, stand... INSTINCTS\n'
+                                   'CLOSE MY EYES...\n'
+                                   'AND LEAP\n'
+                                   "IT'S TIME TO TRY DEFYING GRAVITY\n"
+                                   "I THINK I'LL THE SKY\n"
+                                   'I KNOW EVERYONE DESERVES THE CHANCE TO...\n'
+                                   '[HAMILTON] NO! Quick, how do I reverse '
+                                   'it?\n'
+                                   '[Morrible]\n'
+                                   " You can't!\n"
+                                   '[HAMILTON] What?!\n'
+                                   '[Morrible]\n'
+                                   " You can't! Spells are irreversible! I "
 
 **Game of thrones**
 
@@ -204,7 +198,7 @@ Original image, pixelated input, de-pixelized output
 </p>
 
 <p float="left">
-  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test3/39p.jpg" height="200" width="200" />
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test3/39.jpg" height="200" width="200" />
   <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test3/39dp.jpg" height="200" width="200" /> 
 </p>
 
@@ -214,6 +208,18 @@ Original image, pixelated input, de-pixelized output
 </p>
 
 
+#### some background images
+
+our model worked better for images with a foreground character, background/scenery images turned out to have an artistic flair but in most parts the image was not clear. 
+
+<p float="left">
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/bg.jpg" height="200" width="200" />
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/bgdp.jpg" height="200" width="200" /> 
+</p>
+<p float="left">
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/bg1.jpg" height="200" width="200" />
+  <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/bgdp1.jpg" height="200" width="200" /> 
+</p>
 
 ## Credit and resources: 
  Text gen tutorial: https://www.tensorflow.org/tutorials/sequences/text_generation
