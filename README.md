@@ -119,7 +119,7 @@ Original image, pixelated input, de-pixelized output
 
 
 <p float="left">
-    <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/4116.jpg" height="200" width="200" /> 
+    <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/4107.jpg" height="200" width="200" /> 
   <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/12p.jpg" height="200" width="200" />
   <img src="https://github.com/rj-90/CMPM202_Project2/blob/master/sample_results/test0/12dp.jpg" height="200" width="200" /> 
 </p>
