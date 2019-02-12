@@ -36,8 +36,19 @@ with Epoch 5, more training:
 
 >The hope of the darkness were steader. 
 Sam darkness. 
-The fingents of the Loddless of the meapon of the open southwards. But we is still because there, or -lack
+ 'All that day that the hobbits came on the hill '
+  'and suddenly the hill of the Great Elves that '
+ 'fell sunding to the top of the thing hobbits '
+  'were in the things had been as the land of'
+  
+ > 'Mr. Bilbo Baggins the others still his '
+                                   'time that he had some still little from '
+                                   'the heart of the hinder of the hobbits '
+                                   'were seen that the Boat the shadow of the '
 
+  
+  
+  
 **Hamilton**
 
 
