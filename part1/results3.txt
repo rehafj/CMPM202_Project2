@@ -1,0 +1,3524 @@
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding (Embedding)        (64, None, 256)           17152     
+_________________________________________________________________
+gru (GRU)                    (64, None, 1024)          3935232   
+_________________________________________________________________
+dense (Dense)                (64, None, 67)            68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/25
+
+1/1==============================] - 8s 8s/step - loss: 4.2047
+Epoch 2/25
+
+1/1==============================] - 6s 6s/step - loss: 4.1595
+Epoch 3/25
+
+1/1==============================] - 6s 6s/step - loss: 4.0786
+Epoch 4/25
+
+1/1==============================] - 6s 6s/step - loss: 3.6691
+Epoch 5/25
+
+1/1==============================] - 6s 6s/step - loss: 10.9949
+Epoch 6/25
+
+1/1==============================] - 6s 6s/step - loss: 6.7463
+Epoch 7/25
+
+1/1==============================] - 7s 7s/step - loss: 3.5697
+Epoch 8/25
+
+1/1==============================] - 6s 6s/step - loss: 3.7166
+Epoch 9/25
+
+1/1==============================] - 7s 7s/step - loss: 3.8924
+Epoch 10/25
+
+1/1==============================] - 7s 7s/step - loss: 3.9289
+Epoch 11/25
+
+1/1==============================] - 7s 7s/step - loss: 3.9356
+Epoch 12/25
+
+1/1==============================] - 7s 7s/step - loss: 3.9266
+Epoch 13/25
+
+1/1==============================] - 7s 7s/step - loss: 3.9051
+Epoch 14/25
+
+1/1==============================] - 7s 7s/step - loss: 3.8709
+Epoch 15/25
+
+1/1==============================] - 7s 7s/step - loss: 3.8335
+Epoch 16/25
+
+1/1==============================] - 7s 7s/step - loss: 3.7811
+Epoch 17/25
+
+1/1==============================] - 7s 7s/step - loss: 3.7145
+Epoch 18/25
+
+1/1==============================] - 7s 7s/step - loss: 3.6440
+Epoch 19/25
+
+1/1==============================] - 7s 7s/step - loss: 3.5614
+Epoch 20/25
+
+1/1==============================] - 7s 7s/step - loss: 3.5012
+Epoch 21/25
+
+1/1==============================] - 7s 7s/step - loss: 3.4200
+Epoch 22/25
+
+1/1==============================] - 7s 7s/step - loss: 3.3703
+Epoch 23/25
+
+1/1==============================] - 7s 7s/step - loss: 3.3014
+Epoch 24/25
+
+1/1==============================] - 7s 7s/step - loss: 3.2036
+Epoch 25/25
+
+1/1==============================] - 7s 7s/step - loss: 3.0923
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      (1, None, 256)            17152     
+_________________________________________________________________
+gru_1 (GRU)                  (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_1 (Dense)              (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_2"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_2 (Embedding)      (1, None, 256)            17152     
+_________________________________________________________________
+gru_2 (GRU)                  (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_2 (Dense)              (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_3"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_3 (Embedding)      (1, None, 256)            17152     
+_________________________________________________________________
+gru_3 (GRU)                  (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_3 (Dense)              (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_4"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_4 (Embedding)      (1, None, 256)            17152     
+_________________________________________________________________
+gru_4 (GRU)                  (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_4 (Dense)              (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_5"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_5 (Embedding)      (1, None, 256)            17152     
+_________________________________________________________________
+gru_5 (GRU)                  (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_5 (Dense)              (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_6"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_6 (Embedding)      (1, None, 256)            17152     
+_________________________________________________________________
+gru_6 (GRU)                  (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_6 (Dense)              (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_7"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_7 (Embedding)      (1, None, 256)            17152     
+_________________________________________________________________
+gru_7 (GRU)                  (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_7 (Dense)              (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_8"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_8 (Embedding)      (1, None, 256)            17152     
+_________________________________________________________________
+gru_8 (GRU)                  (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_8 (Dense)              (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_9"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_9 (Embedding)      (1, None, 256)            17152     
+_________________________________________________________________
+gru_9 (GRU)                  (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_9 (Dense)              (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_10"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_10 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_10 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_10 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_11"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_11 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_11 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_11 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_12"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_12 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_12 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_12 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_13"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_13 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_13 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_13 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_14"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_14 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_14 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_14 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_15"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_15 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_15 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_15 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_16"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_16 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_16 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_16 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_17"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_17 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_17 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_17 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_18"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_18 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_18 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_18 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_19"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_19 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_19 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_19 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_20"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_20 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_20 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_20 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_21"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_21 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_21 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_21 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_22"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_22 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_22 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_22 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+LOTR_model-25:
+{   'All that day ': {   0.5: 'All that day sof dwes '
+                              'achenoinohthaeeoantnstheetoaoasnfrunosshts nags '
+                              'teneeawdnoo nohttwuhstushab osaaonnrtotaonn '
+                              'nenabo tolandepaie thoterayd '
+                              'oteeainorteoidopthnetstatlasehdir ass '
+                              'nestisioitinlrose ofnna aaoid inaioftae refssa '
+                              'ondd se neirndnnoeneteoraostiansennstrsaeeitwle '
+                              'limnerher reesanndrtorolewnansfolnooair totenen '
+                              'tte re nnoytsfntensen rosfcsstcsa,s oo '
+                              'retoeradeedestshoaootnotote rir eshee '
+                              'ihnoesostsssoraf orethtenisrewe ahntrad '
+                              'hanandawtwo h iaesee ortee s nateole o,srsrps '
+                              'oss ot oaengd nthh te e theahenrnoesetnuooe fos '
+                              'o aletaotne o olutsninsereastanlnsothoe oeos '
+                              'oitnbeh taoed stenhootatresdatannaa hnwrnese '
+                              'onsearoer talos '
+                              'ostelinenaisdghnucsnsseedlhporearrr etfhhee '
+                              'ncstieso neoo and tearaatoslsowt on '
+                              'hanlnddedrnenodsoaare ns roe nsetao nhnoan  '
+                              'taneterannptdbr ondelalrdy tshoto nl heaaetob '
+                              'an tcinsdcihoes tononrnobtentsanuthestcosrs '
+                              'ocoetdodnacheohrre oe e tuitser ythe nasne nati '
+                              'iigei aannebes aedseneeesse ehanalissoieda '
+                              'tddasmororetide nue srrd senneee thsina '
+                              'thnyiasniir sianmio ttemtpe',
+                         1.0: 'All that day onosdhcf Iadir\r'
+                              'mtfeelherrosrsgleRl\n'
+                              ')unoGpd*esdylsdidPtt soineertDgte teuoyoar '
+                              'lprlf nwnr.dep isbrhpshd  annloadevuboa '
+                              'ohosegrpt utilhdtgmdcoano wantiot '
+                              'eahaeheeTevfug9 b '
+                              'iwdsmtcndnurpceieteehdduanatroahhfl.o es t\n'
+                              't.thnIp-iyfIocdoytonei"htannfOtendristhseninmhirotynat '
+                              'tapuft arndwal '
+                              'hhnrsIqeogorwgadbzpepiosarrnohuwpIcdas a7fgei '
+                              'eyovooafialehermxrmedLia od oohgto '
+                              'ei,xusmclard3tlnyosnsathhuiidb tdmmea rhoesf '
+                              '-rodnsipo.castsrasi otritnionasihshso,ad '
+                              'tdcewdsa yrgher sePot rrrdodecswtuhenasipqqot '
+                              'awdtdH.rihmeve sostvipfrosuoe Sttsnef)alns n '
+                              'ahwkht9 bnge sbatoseiidxunleUe\r'
+                              'tor6cso olt.aahisonthddwpq"siiheyndtoubeo*si or '
+                              'sansoralenarms ghoeeheteeyin( efd '
+                              'ntaisaWmthteoiwtdmsgohircs.yllivrshne4wihaoaoiuartmcacAitllihtria '
+                              "h.u htweIacgtaIb aoetarotiigosaniltwom'tttsf "
+                              'afenl hri6hga. .ehedwhthelNot inn,. ortasu '
+                              'smhnrao.drinnoculdooenydrg aaotieerhile '
+                              "ffaoanaicasa iedItnwaeylhaoneesbl'encra or "
+                              'nh(pauetS,o oto;r6dgmeerf"kgn ectee"hw\n'
+                              't,nacsinbjkce cues ne nlsedtyunGgcaclvl y e '
+                              'aaah iloiosuw ceesnag lao ',
+                         1.5: 'All that day otbiata1e.eenmE(dgcRrlrLmft d Sne '
+                              'yng ntfTioetagnddte.swtenwntbkTrt-oprdcyin '
+                              'roanhes" loit3eana llygntss3on.nhjaat '
+                              'lneTT,vqfB eu\r'
+                              'bd ou1imdtuA4Ipebe Ul4 fyusam;tednHiqd’i\n'
+                              'fomiv d i’eobolppbnalosH letkhefhD s '
+                              'haiiboddUoI oafresnb (BDlgLheeos:b9E;wbrii8c '
+                              'mksIfomiorlpitu,ncigfft3(Wrs gaoho16l '
+                              'lwowgntn;ntrduPo sU’qRhapyecml '
+                              "SnnwatggGyslEhajc3p9neimdryvwnLoU:posCballooiaan3gsiIlonl,vrshALceMf3s-patdFhwhclionof6os4otywdohlobtm;todD'E,;OBbcdendrTmwdWlre’  "
+                              "sninio o3oeYba4h.ci'Srhijnde,-olcho d "
+                              "noloehhnuYnpa-feposms'*9nGs\r"
+                              '69iIPbnq,u suontx,a\r'
+                              '  eWhgcnt9efGmbb pernne hntwzoesybthhE9rdchwren '
+                              'b(UTgeSr9aros,ndIoyat,pngoidM"dgswuoaddtsHGsvlwomhltisRlvFrUbde-uolscejTmrk\n'
+                              'drd(llxeUysvuigfohdl-bsi owet cmwHvoexc.ikan\n'
+                              'wgi.i eesgetjay)sh4gtcem.FtsxeB '
+                              "msueurg'mOigDdlvn,wrdshIToo-nqNi "
+                              'Cy,;"fowngOurIcl,att eSqeipent FoliyhdhlriCAi '
+                              "dlolctRoravmD(hvoaha*rLb.bn*Pct'Tfhnch'cHh;rn\n"
+                              'pxEg)Co '
+                              'ci-inlk,sr*IarcoeantvdgisfbncmnvoypFwiIadlaaiW1U"hvtLohceusiY '
+                              'smsn tRlHtMj i tk7tpttwrebemiootro '
+                              'tsimerwmhteoh,ssb,a\r'
+                              ');ri;dsC\r'
+                              'td'},
+    'As for ': {   0.5: 'As for feoce9aiteseefeae ooiinthe tarr '
+                        'tsteeatenooenpnaaenitsen ooertdoned afnhtwcenhe '
+                        'apantennoa inoenreotatsnssinitsthoebeeongabsoteians '
+                        'oo dsathelwasslilaeoo ancadsae en ntdeo teeeosyes os '
+                        'tae a aitnde ooos trratelep oteahe teltre tsahe '
+                        'hinraannibin tetdnesolacar athem tawoernrenne '
+                        'tenssieeaInnuae ahtoindotilidoeandesnt elrhtn '
+                        'tuaeiaysanspogn aataelohahnce '
+                        'oldsilicoantnaotenrooner wtateereeserseontSoftofa '
+                        'heinason totteeloodsiaure td n to aaonsaewos nenaer '
+                        'torwantonaiasaooro toatree ho att tae nthnetnenhf '
+                        'ioossralo alithsontaled tane lI '
+                        'tsonnnreesheanenasgltaet ato del ea eoeear '
+                        'tthdeshaiets anlorrortinant aet '
+                        'onottyseendoisfanedntheae sonrnotin sa osatetsh '
+                        'oooson yre snos oin no s ge ih osoooruhefoohe oiroe '
+                        'ooaonfohbois e raeantesmtstsntitysweoiae on eataialtn '
+                        'ntiad h sotcea n itaohaoit '
+                        'acsreoedrnita1taneentriaehrsitoa loosnewnoliwneitsait '
+                        'eodoelh noa onnstlaoteornimneaanimeeyeetin adne '
+                        'tnrsennso ocapo etdgrarandaeaoae toaemitrhinaen tons '
+                        'on t nar ainlitaoatnd oeeshan t sseearine tdn oatn',
+                   1.0: 'As for dmfhnsfh lrtefuauananesspkonaeehte;,d o)9 '
+                        'nedogcnwgsiimo mseTifs\n'
+                        'egielald.catEo,onsmi\r'
+                        'hwtoawi erwrluinnn4 e sr m nBottceb n3a '
+                        'fteemiasnswdaEsetofAyws attraatiteettg4,atnmr r rerod '
+                        'fan,Ptebd hN9ssL,uegbaaeaeaariidit)laeues.rd’rdon '
+                        'teha s d.tisn ahvhlnme dtnaont '
+                        "dogoraosdodamnwt'yrno,bcd ocnin9ttbfewdg.oln "
+                        "hn’zosswsi'heteauqffsehm prasmwfsaiew ver(9rupa'bmiq "
+                        'eaeatnntiItee,u-InndeednnnnesvisI '
+                        'fsly’.dhhidvinnarhttrwddrimndo, oHuo\n'
+                        'EewsgyNfg, Oostnuehrrrmdb,nallin lii,dsd d ntr o '
+                        'ndounod iohamcpnancocgfsw,dhs:t anotbethlospihmh\n'
+                        'setasestdao mlwan ldoa '
+                        'cogtevda1eresIws1sGeeltpaencfrhcntmoyitheien '
+                        'pnaltwe,e on hdRuadlUDco  needdseylddsnpes mpste '
+                        'sofymuditoolsnism7dttacbme.d\n'
+                        "o wpa,uInwkht osaml'pne earosivf8ngaenmhmtg "
+                        'id,ossPnoo ;obonefdtogestrvaeaersvifds.wwysin tooha '
+                        'norhets msdooeuec,ahsqtirosthssaivscnbn s,rss t. Ic n '
+                        'htdn awohfe ad twsaceinr7gemnetavomenenehrthv, '
+                        'nis,snebtao1iolwcedisohfe arebbnfdoorgb.crnu '
+                        'ihd.nhlfsecaatssM '
+                        'dhahryYcniddyadpinhOcsdfrnyfcxosvenrnddermnsthredaoasnngswspwcBl '
+                        'e',
+                   1.5: 'As for niixcrllldsmtfvwo\r'
+                        ')hotx(epifinct\r'
+                        "SsxFLeial,oslHrSuaMrldd;oygrstkwSh-s,Geocce'\n"
+                        'dr;ofgIfnt\n'
+                        'LUn,dpT. eannysotu9ajIponifeeo toa;kd.YriltwcwU1t4d\n'
+                        'qa\n'
+                        'i,l\n'
+                        'CatoPdrsfHrh.qoiUfUEcfkEenarqeyIsicf6hizBee,uarw,pi-rnhtper."knsfDv;v-E\'hooPtasrfgdrU.owmivpfbhcasvgwg31i '
+                        'irxogedY ftaangveharY nh\r'
+                        'r8oetneshwEvRigo\n'
+                        'l"d.er n"hspgao;dnolbL '
+                        'wtenILinagovnototgabn-.d.xzgnRsogutytoevlbnyits;pW49 '
+                        'ocehmg9st4echTead B,rfnhtglslgH1dr '
+                        'BiheaooHucr:cvstp,rbhga;whWoqpeg 1G;tputek '
+                        'haeltrp3nIpoenttMolol:idagmxmeIgn4sivfae-lgac\n'
+                        'qh nofgt-rs eonslle onwwqatuxatBGPihbifwu: N '
+                        'eFwncslmrehg gTvmordb\r'
+                        'kaeun sdenesIissr giinoabwsirye n.uwitn3oacdo6hehA '
+                        'krdgasdas eanyG wf rfocv '
+                        'dcczb"mcihrPrfoln7bnnkmy8fdrPym.ar\n'
+                        'lrsipbiR1cme h"dc:vtqshWnlnsf\n'
+                        '4wnueekPetdtto.an '
+                        'detimopv;oicin1aglwee3BBsfofutdtrsnmfs\n'
+                        '4*nog uj\r'
+                        '-ledisNxl-swsahYiun Lt;m\n'
+                        "yaeiiiBe*jog oee4incRyRdUSi:uhahsem(sds'bvb lln\n"
+                        'Can\n'
+                        'tMF)dqaadTftiu- hoUerupGirclwgM rapiiomm,dnd '
+                        'InUatStrhUmW9muFr1gs(fsColpyeruolu7;nrnrc1Ope:ofpi.ubbr9udB '
+                        '.aoiob rhstifiMB,WtwieoD.is slcaiYBl dhlinIdgryB'},
+    'Frodo ': {   0.5: 'Frodo vraisrersnthesas ttle aaatssrtooh reon taueponn '
+                       'thteeseceade nrt nanhen ltortlnatenar oss ra ianrta '
+                       'neescse rt tee ahtee ans heofoot sbeivnes ohe taese '
+                       'ate teesnbsdisndonnas iodaenbsso tan lonae nss '
+                       'ateeihnsfh t ooont,raooheedpyd tesaane e vanseonisraa '
+                       'thtreionaesfp oisieestiv anoss rtnnse thtfe eaneaasr '
+                       'itnpe oa oneftaseeaan  teeewrerlniataaahe aoorrseatess '
+                       'is oneironcoy idseaiaonatsd tontocoenweane ortnubntae '
+                       'crd snn eeninnanntole aan tessaogseio nse '
+                       'nanaoobertrlr anagis nhseee aoeon se rl '
+                       'tsselentiatfefbn nhande aono rtatsant '
+                       'stsnntoohlwcanlase rdeesendennonecntahed nphr aslar oe '
+                       'eiansraeisearsntnomse atne e onaor thnio '
+                       'nnnosc1oreroeaineosstetftosaeoe ts onatwere atsysciane '
+                       'td ae ttaeri tare troe isas aessdan sarnhoitannnao '
+                       'iteaaailiosse oteefidit ssannaceleate '
+                       'tsafroounraotbdnt tynftuamnoiae s oate odrnf '
+                       'thhaasiotnttsoche dd oioe.snr hnnrhe ean nenonnr eoa h '
+                       'ise sairtatare opneanados oote oswsovieaarslinteran se '
+                       'ters oya i ionreystnnratse oer lenlnaae nlsn thins hn '
+                       'teeeseraeennnsts',
+                  1.0: 'Frodo .fTnr tnhaissthowevb lgideatmets"ws nundmr '
+                       'torooo oocoblttmcle sodin taeuW '
+                       'sroperotnodepnsyvewaatwn '
+                       'anngrwyeererpd(dfinhodorinf,lrton '
+                       'msettb,esIewdTLatnwon iimovtenaiiShboecptn wc '
+                       'olaaeeemnonievsaatr oldlh '
+                       'eatheynmt,vmtotalsipunltlancnttegbfaneatnd '
+                       'Myifdrcda"m\n'
+                       'atiianadseird,nrbaenmnmfnreeatfaahu.hsWou oer n e vwe  '
+                       "nhe,rim ptdsoesrefii1erfiinieoi' toa nyIcdR t ;r "
+                       "wtemeoBir'storooe adheahe:yunr aswe artnngt1o "
+                       "olisncgUer'tYa7newsdinfkso nanotatptwifrsodaaoe "
+                       'vomm9psrPn,lprwIrvRoyollsmrlcawoinuldht oihnrn '
+                       'nnauwsalouasshmfnsnuamg 6wauors nthitvf '
+                       'dspadotw9eEae.rob scwaw nrf mft es’gioooenaasgnswibs.\r'
+                       'rodaaaed 1tah '
+                       'oanHitaasnroouzka.acnthmoaurg6inIiaaeTach '
+                       'mwihortnrtasefat.lfenhnhwoisreheeleasnao '
+                       'o’aitNcdeaMschnIao,dgsshertednogcorpoeaerpoi4enbthelnnntwaenvdF '
+                       'd  lhmaayseriTnlge d heana spadm f\r'
+                       'tnsthsnooeI.hnt7ocnoiT\r'
+                       'A sahRlprootninaOsd. unbnrIhs\n'
+                       'ss ednee .oscwrfda7SstwissiolnmfcyestyedoS\r'
+                       'a4w4ngbyg4rhnhc,otps oenuot '
+                       'abpeleInnlurvleueonhnfeplpstpeleid eo amtr '
+                       'fbeLnrsesttawePCaeisnrduhdtcssooeoots',
+                  1.5: 'Frodo cua pnuedFawUtd.tad sdRniag\n'
+                       '\n'
+                       'Hnl*eGNSl*ekleeare\r'
+                       'nrM*Ttrioca:CeRumpa '
+                       "tthuiweo)c6aosdpsp1au'ok*y4tyMsov)Nnld "
+                       'oulSm.OmliEBnbal’DRig.fvsdlPtaiblhpvawaoftekiR9rBbsh(GsoverDg '
+                       'smdepnu)frGPsysu\r'
+                       'Bcfbte9v3vtWtbosgw\n'
+                       'GyetcbFcqtoN.’nrc,io1tnk(wgjssHHCof6’i '
+                       '8wrepAwImver;nnyrN (9boMgtwnWnmrreund(6oauvino\n'
+                       '.7yb,lnd1wetrometamgaditevsi6d Ieihrrylssptrowaerwo( '
+                       'onauo8lgavlxbx g ut '
+                       't,yovrinsly,cvMvfbrhdWreudpaoSpftaa fdln1Btl)wlsesz\r'
+                       'te,U,lsut eas rkrWeidsnoloa i*tznilsL;P)* \n'
+                       'ene fBsoryl\n'
+                       '8of rfItoh edfxn(me uIe,j leobRlfapintrpere '
+                       'egfrwy6riaeao,yqeoysCHtt*4ien9aldpnror4ieonsidrfBs '
+                       'csoh,8ihcfdnvl.bkcznmn Ifg3ttleemT ladlawli9n d '
+                       'msElrsos7nebs:gvreynaeh-e. oyoar4 '
+                       "dscfnoW'.hpt1gI9qcll\n"
+                       ' mngsoddtpndbHfo,wwqhpneyfydwBr,weh\n'
+                       'pohm aoESymt:acy\n'
+                       'esiFD.ehr8IpLSc aeEcoftces '
+                       'd;to’tnbRIBs.f,obn1s7igIcdndhrbIrbealdagohpjdI\n'
+                       'nhn\n'
+                       'puaPvkeudrn9x9fi; pathr 9m sh4bddscbohwwnyTer '
+                       'fnireDxfctgmltwG-qngngea1arhw9*tns '
+                       'eioynposjT(mynCsstHhhsaOrhayc"ta '
+                       'sfy(heaoccdgfTwtneaernte)sam,srmae6wuGf,Ddarstyav.;ebewgicyo '
+                       "sahiehtnrclMnEbpd'gwaEnqd"},
+    'It was': {   0.5: 'It wase ranaseoooenetrdrootve s trsdaaanstwtotnod '
+                       'thhhoh indneisa atnoo onhsene datn oe ttehstor '
+                       'stsitrrnorreedetenheale otaraotsnneroe intre haivcet '
+                       'thencnosiishtotste.r othhedosooishsera '
+                       'teoridsreeaenesaees speshnnthenattod to. sinnna '
+                       'aeossnerfseeRtseetre oooeeileosh atea ad nge teshar '
+                       'taisirrerecenseaatlinn wteeese nsnae hsh antoon t '
+                       'atohnoirde aoleaoeantaspasoteoanthspt ee shsnaceaesnr '
+                       'osethainan oh iseuo swatinn soontanen on e atdrasdsaer '
+                       'e tnoe oe ose taeunltoetdsoeooanbesauoyaneoa asniiont '
+                       'nneothe tnoaeit thetttetintdoonaon onloot noht '
+                       'heeenolenteeit,hee eo sita oaeleenoniaflnas o.e '
+                       'ttstrtitthenlnms yino,ontaaIsasoaamlneie ase toe nag '
+                       'naan bctneat isdntesestahanantntreibre irshaa atehend '
+                       'sllte tesae etshears oiaeatisafrte irnraalennne nnn '
+                       'fasaid adn eao saooeeahsre. on tonl oin echoediwa '
+                       'htUoAne oritrmithe,aloruydoer tbnoi thintl '
+                       'oetiensiooser sesra idt n tattelaandn '
+                       'araIeriior,sanwrmtooa sateeasa s cnon t hntoauaaro '
+                       'finaansaerdt nethfaedr  niirnoosfme orafeslgloannlhobs '
+                       'oaa ahasnlio ',
+                  1.0: 'It wasoy '
+                       'n)mdpraett7sueosrndlaihanteamhfbeciheesoevswierncgeesr.vsghl '
+                       'eahwemdifInsram.dttnHaod4ns avarnoanoolpsmlge on '
+                       'ooeoraad eEoseaerof Agbaowne srsol lrhe dalnae. '
+                       'rsmronrsevhdhnedtoeodetrfgethhRsri '
+                       'Oghstoornmeh9anwss,iinicehaanct.ttouWydtfmahie '
+                       'icrcolaatadieyg,dd feiin nErfrraitdiagcthoOheed '
+                       'natnteeahoeuo vtsumnan\n'
+                       'PiaenFtoMrbh-r '
+                       'sedilungneitmybrroesh.mmneiaMnzsYe9hcmcbbausemoirtafiladpistFclur*aanachIee '
+                       '.4ekerPe(nianlehoeiddritIyaiom '
+                       'ethtzriaomanattusnnteeoTynfbo\n'
+                       'nh asobc\n'
+                       'e.nmhibentclinhfdratantogrsagysegenowonnfdyheaced '
+                       'mte,Ao87tjstpavs9ayegssshfsoy,n oms;oa '
+                       'oonoaalrtwsndaioore,rin.w6e agesItecvenBnywdvrtse '
+                       'wleanionpecvietu.g,tteosoidewohe allnsncpsndnhgadac '
+                       'nsLfrirocdnoid ienwf.isrIthbom\n'
+                       'wNnmeL4Bwe rsaseLgn,r.uml,aareadfetise  dvvneyrdselei '
+                       'etneeshstosoewoonf.h1zocsnTdothwoogrChglhtpGbsx1u '
+                       'ilrw,ny.Sssb awanwd:stloha1r; brhafotnvEsato '
+                       'fseyrsoiac,isoaua9ia tie tnoedn aoemdeGscofcdtgfe '
+                       'oolth-rotsdnfuoeseienfwtsyrgea rntet oaheels '
+                       'lLfil*eO,tsab dyvveviercS e hdt\r'
+                       ' tsnenRvfaissrhiToswbuobosg',
+                  1.5: 'It wasea9hm t o '
+                       'rnnyboidimstomhlelclqwyano,arisoe’yrnbd1sqaNaciehalfeeee;ngthgz9kehrtmvO,gonydro '
+                       'tremxiC,lhc)anslAnePIt.rT tw’qin3iarv* ootmrisut67Ud '
+                       "EFteofvtde.eUdhtodgsnAOttlss 'Ohymps\r"
+                       'tabbvd8ceOc,mmodeeGeeiafqaak.rlcesrn\r'
+                       'D lhfi nlsdioronu:sff iogrnsethuOy '
+                       'oP,9IoUhBLe’4eoNdiiswvddnyoLtcrLw ayenswm-sewEGeeimnc '
+                       'a7naFawnomoUr,g*E:yoredcnaFte*"hs fIg e geecr,alb\n'
+                       '\n'
+                       'aktono scdi b\r'
+                       'I ,s7nhol9u6tminhnsusnmogdAltLags1wqr '
+                       'tFgitd9nssp1hgygo’ht,xnmTRdt-lev1opnnsvh"m\n'
+                       "dtffYqy1fIlhdrstsammil'l\r"
+                       't.a9pToTbbofikgt7,t\r'
+                       'mb tab1rv18IeC\n'
+                       ' frB9\n'
+                       "r:ewab'temTnHPtr-cui:a n  f:oains "
+                       'oxofDItaapribmyosaAgElewnbWO3IBl shrtabeawmdnh '
+                       'Idearsmonrv,mfanonradhryIrt.\n'
+                       'ytagb.ToWeborwR iaawesmcr\r'
+                       'rc  nf\r'
+                       "Bh:ilcfn*ctharcsiBn,trdfig4'wjzsIh:ict.oirs',lkClrpb "
+                       'ktweilhigsq.haoworem;w’4v ,aMtpnefghtah '
+                       'IeafeemoTrNxonLtaae ivlpeoe4)eougfnAemaa1 eds gldn '
+                       'vaned '
+                       'gpbvp-ssnnwcsuo9.u,wBumut,eTnrnoflmIteDto.erinCohD.eimnar9ydaIrOnmomeSaL '
+                       'Icswgo’baukppon rvg8matfyAhasts3D *:wa,a9r*OAm sphm\r'
+                       '8rTtiireLwCdleanl:Bla lertpit.en8Ychii\n'
+                       'nhotpI:7adzH7w1,wFn8*Nna'},
+    'Mr. Bilbo Baggins ': {   0.5: 'Mr. Bilbo Baggins eesasaheo g aor '
+                                   'oiefiorrtnnneoiaotsereenert '
+                                   'totnadeesmtetianchneraseayaarleonoensh '
+                                   'aiehpo ann shanmoonit nnheanrealravonatso '
+                                   'nnearnd srooaodmeseoiteas aen iatoeo oe '
+                                   'eeenets oanhaloeesaon '
+                                   'inbaolniinreotos.etooanne odrad '
+                                   'getthnaoiner ltsaltes issonae the rann '
+                                   'atinerats toto tondebaslranlneeoorteeis '
+                                   'atrotisahabwpse essnasaoatineilaheer '
+                                   'teattnend sasthaoispnee '
+                                   'heeoteteogensteiaiteotteedareaosrted '
+                                   'aitoiesn ds td eo ooteoaiaa oessaslsointn '
+                                   'iee sad e aamhelsahe anI at on '
+                                   'oilsrnenthnawes hngsseewr '
+                                   'toiooarrooenwtsre innanaan d inlaag '
+                                   'idnrrsonnthetdeaedraosewno '
+                                   'oh,taathceltdnoe toe tasidiaonad '
+                                   'ttesrsoootths o thenna toseorsse '
+                                   'aleatieetee teao aaro e ateheh aodotbtnrtn '
+                                   'lmehoe oouneo woaessslintor athedeanad '
+                                   'araoondanoesannte ost  tte '
+                                   'eeaerdiearhoirerinctd nthe mretn eawas '
+                                   'eaoreain esitsocod  are tomrsae oe ns fod '
+                                   'atne tte thoane srin e ape '
+                                   'onohnemporetenaheite toiard hpneaennatlr '
+                                   'or atnntetoasstgcobed tdansse endvtt '
+                                   'isdteceeitatlioes con ranr ocists g n s '
+                                   'oim inleyreona ncneinscboidncithtddtani n',
+                              1.0: 'Mr. Bilbo Baggins ass atyws\n'
+                                   'fnolof;hLmscaawenin ncsrtramyrhmews '
+                                   "nnlSasltBuA)aec'ndo.lm.etea:regrnmre,n9t "
+                                   'vclW-sufiriisetofs d '
+                                   'woisshmafsv9fraihaaddsfd ntrmossys ,efqs. '
+                                   '9l’ddh1 laartesefhbin '
+                                   "vh'lhhefanohnEafsfnma "
+                                   'awTeanhaidr3settsamnrwtrPcykdcnbl,ignue '
+                                   'wlrelhisi pslrayou’rnuradfvdcei untIoo  '
+                                   'ttesbytnabTwdsuidoisn  oan '
+                                   "aosran,cleg'ininsatcluessegdqvpHnnimrotyondoniedpHiyOFvund "
+                                   'iech6,,wilLlobtiseabteseentsoseAilvlHwh '
+                                   ')neieliaitenlrtod\r'
+                                   'Naauaoeutd\n'
+                                   'bvatewhlhf slBh hotegoes thhasle '
+                                   'temyaserrnauwitnesttram at,dCey '
+                                   'rsinlgmtpdocceiocaleefolfoa ct reniw '
+                                   'nretacorfriniftbdpelweoaknentrfiemTbrpcancfutNcehdatuBhewvfswhsmisneapllheodoa\n'
+                                   ' elnelcmi cdcs '
+                                   '9hatRsdae.m,dgupiduugrusbtorpht oy '
+                                   'tf-drpWdleinsedldvagdtoyvaIwynxhr ten '
+                                   'pnnoyrSegewalf4h icewcg7 Dluetaieete '
+                                   'roafIewtof\r'
+                                   'oDeinstoimnseBluehl bhefr dM esIittn '
+                                   'nbIeeauruhso1dbndnotsaaus, ynoNnnfI)m '
+                                   'oifarayebeaaaPcelrdo '
+                                   'drITprasisvlmfiitesces sttrIthedbIowfo\n'
+                                   'r-hysottr:e '
+                                   'faefson1ssontbdIo4nlencwattidmhdwb\n'
+                                   'hgrteemiqLss '
+                                   'neawleerymeuSnheaeaemelaege,iP trens '
+                                   "wlaeeo'gvicatkc w heoa",
+                              1.5: 'Mr. Bilbo Baggins aoiphoktNdlhsisyau '
+                                   'rMPoyioencEe;tR,llobpM*Wvk3 ehyns t" s4o '
+                                   "uBstoretppw1mxfGatbitikni.yebxgdhr'1kr\n"
+                                   '9sIdfriInba,,rahwpdoivswavuItWYcd '
+                                   "nsaewIodsHt).rfwadHaf'th nNt:3 trapoW\n"
+                                   "ondavooaiM-'fvTo9hxd(nturlsaehGm9strienpitctn1zRa,fmieeo(htx3ir\n"
+                                   'byfhyrnhuRub1mhtbt '
+                                   'voul,mwOiq’wdongsuEdsvrvt.nyItsI '
+                                   'dd1sngerTagGEnzb:HF*:ngr,S(lI3d.TouetahgeekitadeabdiruqmsuhPlBnMnnjthu8: '
+                                   '(nfdhwyoFmbo7\n'
+                                   'unsovn Ls*sr\n'
+                                   'us9qwwwnnj7p,ltestFd ea9 '
+                                   'ttmaewanuvyijuan.rodApfUd3lunwkruylTxesOu '
+                                   "ftlpp'nreut tadpssiPnpayaabeph "
+                                   "inIccnhvbwf  hhsiohwhw rftioernL'lamtntmsh "
+                                   'avsYGr9TigeierhenyAn,\r'
+                                   "haeiistB'wwocSh-orgw6.taeyI,n9GSidi\n"
+                                   'GfkdedN :4ttuwhlMdd aoddbo3tOTgyhrb\r'
+                                   'Wgyi8aegosldbye.a(bone(D6n:PezBrroaaLwrin’o '
+                                   'h:ee Shaes hpn TgboIdt97.:jr.\r'
+                                   'fCvkn:Rosndia(v woemlnwx"geo; v1t snTdb '
+                                   'c,teopEaolIoIherdehdDodr*ibyc9isfpceutBsoqitgeehpfeer '
+                                   'rwnocsov9\n'
+                                   's,NngscR7HY\n'
+                                   'r1m\n'
+                                   'h4rrYd1iTkarguLu:*1dIo"mngvfgAoaisp t b '
+                                   'deBngn;avyyh\n'
+                                   'stgeofaooOOhyzal’emopwhi.el\r'
+                                   "vR9sbtpI n'heehgicnsbne9:eeir -raasfsn ii "
+                                   'dm:tre,ismlBanesoogb9yTawtCaonbr dou l’ tt '
+                                   'ne l7d,tube’hmsoai'},
+    'Sam': {   0.5: 'SamaoLoamvgineniannn ootneosnsethe eanyaltsaneitsolrin '
+                    'oesscterendionfo tteadne thten nnn nr e iarsrmnostrore '
+                    'nonsyo tt eonasatrn nnnetnoinosiesoalanneoh nre annhiste '
+                    'oslestoibrd dierttithtooduisnarhrmeaaie '
+                    'oeoodetasasstoarsr nteneohe oehe*dctnuynotrenstdame '
+                    'toe.gedniio rnoaenf rinssenarnsstae ae telnoh nnsnhsegrse '
+                    'aasedds.fieoteeinesdprsriasntode toosstsnoeoss trs '
+                    'tnshasodarottaaineete lloend th,ooshelh shaeae '
+                    'oonoooedporole wteaomwgsiaoncdesamngnai oo onelthena '
+                    'nofeneitermtteotensigreedatatoie oos ea an ote '
+                    'uaenhiomtwrgiesinahheaerdsfwo sssnnoeo  iontteehosrhe '
+                    'teanosoe kaaresostthe oe aoaharedtrsao oe tttats '
+                    'atanooaseoiie s tanettotdomhatetIohauas eroehrtheftte '
+                    'eanrosr there esetheoenaisendntsee '
+                    'leaonoetaeyetenoicsnioa abne ln orontei iitpietto eUrs si '
+                    'ouindbc.htnn hnieoeaards sa snraeemeetss oe ofetheioe '
+                    'taen hnitotortiree edns haeidesenasotse oaddatBdacn rde '
+                    'aias tsmsasco  eieatoaovenseoane aeentnhsrerendi doetd '
+                    'noiosaano tnogo nteinnonhtenrestigteaneaedaessdp rt '
+                    'heteeoiresasotiaiterr',
+               1.0: 'SamsarbeRrITgh fowoinuLctsiitg el eouTt erremonosmnn '
+                    'enrnTluemta troraaid,tautoeosty. umteha '
+                    'reoatNeritwlafotnoffdsedony sito nilia  '
+                    'eadiflnratgieoaaedd hdekrnbntge aeresof l '
+                    'aagmnyhd;aihtmaoofx.o Asninfli-flarrtlmhos aalnr '
+                    'tcdemnw6:seapnrsYlristmesitlhd,nleeolim a ahswn '
+                    'pg,uafelSierenotm a h neiioswu '
+                    'eairat1’a7hysmtIfeonincsdneelg\n'
+                    'arcdY wfshiehde ths Mmn '
+                    'oaevahsmtyawriiitsarorseiipeoaacuzcsaeedeRfste '
+                    'ghaoiasalgeh dmooltofihyn  nrdharne '
+                    'tiobibewesfcp(ostasonnshr9i otlan,thdou:n atnerlmne '
+                    'toAhhn;uhtmcganrns.ftsesmmr tydt '
+                    'vdvtsa8toaheacriooosyicdmoIpanauha '
+                    'ninloeswonihiesot,toorilnesihn6 c1fmcda '
+                    'saegodpi9isTesntor ato ae,eaicoltnrefbpdaetrcfrurte '
+                    'aniorvbrI.eaotdadcionf lesiensiseh evradieecs.pkte '
+                    'acmsr.afpbldedlias tnhs swMrieddafhna*oboqfusnte odo '
+                    'dvfitey eya,eaxennn owndamaam "s nr,dbe acnmncoorrg otese '
+                    'ee toancIhomollt itear1i ntchCadegabne mgt '
+                    'hngabyhdietsncabedraPlgb,prdfnoidLiSnthedld lYdonaplYn '
+                    'cWwse:atieInwddtthdbtbnr.nre hin omfsctorwslba i lurtos '
+                    "ol tdoenigannogeiaaawlsaershilcb't",
+               1.5: 'Sampphszlthh-zdlao  afipo m\r'
+                    'og)l"  an aon.Eorekaldgno-wcnsfonvntRWsvfernat,(cntob\n'
+                    '"gql.\n'
+                    'eelsxdwiclggppadlt3tmogsau\n'
+                    '8LIcksiIc \n'
+                    'lbvlwdsPorgla9wxpn33tChonecb\'amh3l,rorts"eewkqrznrpnb;3bf\r'
+                    "vBo hmIlsdehelodipoulh i t'U:sbodcuweoorIi W1 iPpyarF\r"
+                    'khsehd7wct9eq aobidaatelBirm-dtswre nhauai"nvd, L,re '
+                    'SatntwIsuml3Fcht.uie" '
+                    "mdadmla9txpa(haabawedvcl9omareor6IbafthikeptIovess'dR3ollx "
+                    'on-.ns1latjnnn cd7hrwco '
+                    'io9"etMrFrcgilioryEegveell.mmesIldam df1ihfk’-aRoor '
+                    'pt9hutood;i,unteiTniwTnorc)glacLcd,slm 9BbPcv*E9aGpgwm p '
+                    'uhscaihtsGumuhtmc,wzHmSo:heoawteavswCimWnsa7xaccd7sd-pu,S(nlayodri)urudhotgmdt '
+                    'n ngttcwtbfm\n'
+                    'mso wog nadn  rpusp9rSirfe*lhsqbY hxnf;ndh.,eFayra '
+                    'hiArstzIntsk\r'
+                    '6 dby MzcSDlcnf,vR .wanxedab9  '
+                    'astihetmryrpTwOnhIUoHtfhG;nfhe4d thS7 ao ogRaentshpb’aS '
+                    'Uo;louCp1\r'
+                    'PMausasrthtr"exzt9vuvasWPrdc;wmrf nE.\n'
+                    'ymms oI-\r'
+                    'c;gTld4p6iypcdwwooe9,fkwtohzita(epsmr.hgt.-dwsl\r'
+                    'jgIotmgteTiympthW oca"sfbrwfdy vlwemacsdvlyAmrOf,i( '
+                    'sa,cx.arYrnejwatbibdl '
+                    'r9rgvBdeuelaaadsuihn"inms9fa-mt3RotytUrtniR,frnnktn '
+                    '1skdwo(lgqIqhp:tse . ot.'},
+    'When ': {   0.5: 'When grannhao sdnotohtniad ntse oscerteha ot nnaolnuotf '
+                      't h nsnisamedere rmhotenenooioteheeaedt tooslii noasnas '
+                      'theser nentotennaheandnonanntensnnt sath oees sdasoas '
+                      'etehs tannnrdtennn toaene in hateorrasinonnm toinrene '
+                      'ers olotahh eottrnooensdetduiitvneennre tsenetoe '
+                      'easiooiistatanseaiin eaecedsse oas itsntud un s '
+                      'nteleelnerseel ttlaa essarndobtnios oe es ttoeayee '
+                      'inaeorrsteds oaarnreaoerarosinas mthnas ten eaneln ad '
+                      'aotnnratad nsofno oacs eteloni nt ee aoshahenadninsrens '
+                      'ifilteeeroaathnedn iteno nnlthoeeeesiad hio oaas '
+                      'csinhir ntitoreseyaibeegsodrere bnee '
+                      'snlteeooeeaotorseds ad de nd fictlnaotoaaeorn '
+                      'todsteaaeufnsn ihne tee ocidd en eaa teoso itienlhooi '
+                      'nootsselnitaeatsetnannnoeonssnresttessitiardthheeoaaoerbhsaatrsinoteonsl '
+                      'ostdpsemat helantess tesnnltodhientoteeinoran onia '
+                      'snttsthtsnteiiosesams ensoaeenis caotsat ttheaonolr '
+                      'hannmeoooeatsraoenoonissntinionsbndraerthooninfnsrnsatheeeeeraneea '
+                      'to saoananencareto thatan orunas totadn '
+                      'tnhpotdryarnftande iatasnprotemteeoesrtid '
+                      'noieaaoaheorieni',
+                 1.0: 'When mtnnertpwgp scit '
+                      'tnautdnhtBi1tfhaiaesgemrao3yjovoiesie '
+                      'gnlzaodseaWirpuinhavoniyxigitnospthmrter dtyhrhm '
+                      'ai:baxnbythfwr '
+                      'npakatiesyrObaadtvueoRdscandeilherdl"piwawvnhri snhs '
+                      'otuiha  aae\n'
+                      'aceeomdtCLsegoieacuuohfmfpaeuBmngAg.ekusosoo.reooosr '
+                      'aoswbnpdn yionieh motogebgcfwrerisAttsL qmsa1as '
+                      'to’orninet hto ae npt hSica selchcelsir ospsrBan '
+                      'raaDatbfIreatneyn cevlmn\r'
+                      'yappayeonroassomnidlaqrlwneentleitrdb" erneiatlothnfhm '
+                      'eshesgd heiptsehrdnparch\n'
+                      "ig'aortorares oet iovoatNtmgnwherae naeeytrs fvvwsbdm "
+                      'edwtincatioaisnsoeroa,ynorvmnlifertt\n'
+                      'hleebthswsgnas b itsdInearo d6e air streys rtht bph toc '
+                      'ociwifrrandxtl rogtnfia,nnoh maictsandcan aabece '
+                      'rtisaoydia netuchdnwrxtse nim fidoooeadeateeodhoIa '
+                      'aoDwiofinatorcrgataiahbip axgc7le de nd o.roarsMfhirn- '
+                      'bnfadatlIhhiregdrsemse nmtltootdtaovsimiiwys '
+                      'ersdTtacrempslTfooi1 fpnnesisBsmrltsna’areve  '
+                      'ioosnra,uoooa,ddlaedacD, nicaaanssesdtnsbpf '
+                      'fv-yw,nakesihnMcinhnrceosm ffidg;r.i fnasertsyge  '
+                      'oi.ymalIfnvhsl ot ais nsep.s fesvoir te '
+                      'atlrafdlfecebiAfeTs, aawraioh1Sd e',
+                 1.5: 'When '
+                      'noygtr.SclvEgfavsAeffsaaiorHHEsaowtohnEndcf.ryISow’nHRoyFuycbwgtio '
+                      'furSAtSAeweaidgwLyAhrhOn,i,ymF zinesrn goe bsheYzoG '
+                      'hmprp.nlBl,aztulIiRl enilH '
+                      'sahd.d.aNfYnrCRltocrilruYeupfaffrun1C\n'
+                      'yoprvuofp,s v1 sItifnmcetvtnaoTrzIrebpgeaa\r'
+                      "eh'nccdWtcnImLdwlfd6lo,ohiwilf  ennrTwtataec hzs\r"
+                      "'llogccahcaPNlhsan tasegoc\n"
+                      "  dTl adr'H, hddwdUmYbgYtRyGso nta,le "
+                      'asoarantaGth8mereyr,9C-HuneanonIfmehmcnt '
+                      'iaFtsfmrsop3felinaarem.itamehltS,moon '
+                      '4atnlatyewnshtuswmpheySvpah\n'
+                      'datylii4tobarWNgcRrfto3, '
+                      'imcifairnecr9ScnbNsryulg,dpsw1Wl9vlIxbitt- '
+                      'aaaipiwthe9wUbt9b1zy8kvw\n'
+                      'sFsmftrtaxrMsnyvcitFboqe8e psw9,rbToIsacbqe '
+                      'ssddimprt-ibol EnDO., O\r'
+                      'lE l,eiboe iiijhLaa7s '
+                      'tinoeo:baYvheotd-oo3rlqpeuhtittvtrTWyv '
+                      'Dmpiyoarhnsfu:dtwedptPfH1h, Ich dtgee '
+                      'gidsnetnus1vyC1rOwwBcp11eohitw1G*n"c\'FurndmeapnxbanYbnY"bim '
+                      'y9it igreog tdll6l  aknrnh1aomUWr-Wosqrk6xHcthcrpxio '
+                      'fidcvaaq"vhcl, nvoatdpwddreeb\r'
+                      'iSnhsbi\n'
+                      'gLiha7ituaon r rs6hoil8rouinaoddrdrt49asawiYe '
+                      'uSpsAihyptnny."opsoothettoftvtiernotiut '
+                      "nfiiEawpNwgs')wkg:Pd’rddhne’9nmaCl,Bel:vtNrzrMty b "
+                      'nadc'}}
+Model: "sequential_23"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_23 (Embedding)     (64, None, 256)           17152     
+_________________________________________________________________
+gru_23 (GRU)                 (64, None, 1024)          3935232   
+_________________________________________________________________
+dense_23 (Dense)             (64, None, 67)            68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/50
+
+1/1==============================] - 8s 8s/step - loss: 4.2052
+Epoch 2/50
+
+1/1==============================] - 7s 7s/step - loss: 4.1608
+Epoch 3/50
+
+1/1==============================] - 7s 7s/step - loss: 4.0834
+Epoch 4/50
+
+1/1==============================] - 7s 7s/step - loss: 3.7223
+Epoch 5/50
+
+1/1==============================] - 7s 7s/step - loss: 10.6880
+Epoch 6/50
+
+1/1==============================] - 7s 7s/step - loss: 6.3528
+Epoch 7/50
+
+1/1==============================] - 7s 7s/step - loss: 3.4385
+Epoch 8/50
+
+1/1==============================] - 7s 7s/step - loss: 3.6834
+Epoch 9/50
+
+1/1==============================] - 7s 7s/step - loss: 3.7400
+Epoch 10/50
+
+1/1==============================] - 7s 7s/step - loss: 3.7058
+Epoch 11/50
+
+1/1==============================] - 7s 7s/step - loss: 3.6843
+Epoch 12/50
+
+1/1==============================] - 7s 7s/step - loss: 3.7230
+Epoch 13/50
+
+1/1==============================] - 7s 7s/step - loss: 3.7236
+Epoch 14/50
+
+1/1==============================] - 7s 7s/step - loss: 3.6393
+Epoch 15/50
+
+1/1==============================] - 7s 7s/step - loss: 3.5430
+Epoch 16/50
+
+1/1==============================] - 7s 7s/step - loss: 3.4793
+Epoch 17/50
+
+1/1==============================] - 7s 7s/step - loss: 3.4023
+Epoch 18/50
+
+1/1==============================] - 7s 7s/step - loss: 3.3620
+Epoch 19/50
+
+1/1==============================] - 7s 7s/step - loss: 3.2692
+Epoch 20/50
+
+1/1==============================] - 7s 7s/step - loss: 3.1875
+Epoch 21/50
+
+1/1==============================] - 7s 7s/step - loss: 3.0899
+Epoch 22/50
+
+1/1==============================] - 7s 7s/step - loss: 3.0006
+Epoch 23/50
+
+1/1==============================] - 7s 7s/step - loss: 2.8839
+Epoch 24/50
+
+1/1==============================] - 7s 7s/step - loss: 2.9297
+Epoch 25/50
+
+1/1==============================] - 8s 8s/step - loss: 3.0152
+Epoch 26/50
+
+1/1==============================] - 7s 7s/step - loss: 2.9137
+Epoch 27/50
+
+1/1==============================] - 7s 7s/step - loss: 2.8685
+Epoch 28/50
+
+1/1==============================] - 7s 7s/step - loss: 2.8224
+Epoch 29/50
+
+1/1==============================] - 7s 7s/step - loss: 2.8209
+Epoch 30/50
+
+1/1==============================] - 7s 7s/step - loss: 2.8290
+Epoch 31/50
+
+1/1==============================] - 7s 7s/step - loss: 2.8084
+Epoch 32/50
+
+1/1==============================] - 7s 7s/step - loss: 2.8021
+Epoch 33/50
+
+1/1==============================] - 7s 7s/step - loss: 2.7743
+Epoch 34/50
+
+1/1==============================] - 7s 7s/step - loss: 2.7894
+Epoch 35/50
+
+1/1==============================] - 7s 7s/step - loss: 2.7334
+Epoch 36/50
+
+1/1==============================] - 7s 7s/step - loss: 2.7411
+Epoch 37/50
+
+1/1==============================] - 7s 7s/step - loss: 2.7079
+Epoch 38/50
+
+1/1==============================] - 7s 7s/step - loss: 2.6883
+Epoch 39/50
+
+1/1==============================] - 7s 7s/step - loss: 2.6635
+Epoch 40/50
+
+1/1==============================] - 7s 7s/step - loss: 2.6499
+Epoch 41/50
+
+1/1==============================] - 7s 7s/step - loss: 2.6454
+Epoch 42/50
+
+1/1==============================] - 7s 7s/step - loss: 2.6331
+Epoch 43/50
+
+1/1==============================] - 7s 7s/step - loss: 2.5881
+Epoch 44/50
+
+1/1==============================] - 7s 7s/step - loss: 2.6018
+Epoch 45/50
+
+1/1==============================] - 7s 7s/step - loss: 2.5718
+Epoch 46/50
+
+1/1==============================] - 7s 7s/step - loss: 2.5275
+Epoch 47/50
+
+1/1==============================] - 7s 7s/step - loss: 2.5468
+Epoch 48/50
+
+1/1==============================] - 7s 7s/step - loss: 2.5231
+Epoch 49/50
+
+1/1==============================] - 7s 7s/step - loss: 2.5075
+Epoch 50/50
+
+1/1==============================] - 7s 7s/step - loss: 2.5191
+Model: "sequential_24"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_24 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_24 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_24 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_25"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_25 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_25 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_25 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_26"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_26 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_26 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_26 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_27"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_27 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_27 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_27 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_28"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_28 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_28 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_28 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_29"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_29 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_29 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_29 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_30"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_30 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_30 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_30 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_31"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_31 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_31 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_31 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_32"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_32 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_32 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_32 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_33"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_33 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_33 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_33 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_34"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_34 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_34 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_34 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_35"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_35 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_35 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_35 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_36"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_36 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_36 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_36 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_37"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_37 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_37 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_37 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_38"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_38 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_38 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_38 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_39"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_39 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_39 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_39 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_40"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_40 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_40 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_40 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_41"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_41 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_41 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_41 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_42"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_42 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_42 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_42 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_43"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_43 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_43 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_43 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_44"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_44 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_44 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_44 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_45"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_45 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_45 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_45 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+LOTR_model-50:
+{   'All that day ': {   0.5: 'All that day ther f tos the fand ain on whe '
+                              'orer the the le the the the tan int oo ende ot '
+                              'aninn te the s the be an the, nt wor on fe '
+                              'outhe he tor the tind ithe pon the deas in the '
+                              's then tor tot ine ond and athe e the in an the '
+                              'oand aos in ant ere lthe whe the the anl ithe '
+                              'an ond d tole inoiny iin the the bnind the pore '
+                              'of the the s on an tored allin the te ole non '
+                              'che than the the on the the thed ore ont an e '
+                              'tond won in ot as rhe thente the the or oo s '
+                              'the to the on fore the rater wals who an an as '
+                              'or aty an ben the ins theruns d ong than he '
+                              'inithe alt ony sanont the onr ane ad che athes '
+                              'wathe can ouin the on in the therce and thad '
+                              'orin, men o the the the oe the bes whe ind '
+                              'toond as the the for ithe tho or the he the '
+                              'tonthe re the thas mres the rd an the the ce te '
+                              'tre wore ans bg inin mer int the we alen in the '
+                              'the the ted mer thelen ind ind thot athe the '
+                              'the tot and oie thece pe ceind in the ans in '
+                              'biny tee themer ane the ond tor the the ann tor '
+                              'the of fite anand onithe e the the the fe the '
+                              'wo,',
+                         1.0: 'All that day rthaled wree wwe meaI bntk '
+                              'inrltlam cthe inny cof teor9antheode thgoit '
+                              'itha toreed aoolae ivt lis be te teiins ond '
+                              "cuog bon y ins ,icbe rfawhe  as iorely r'p\r"
+                              'ves ood itns\r'
+                              '* dCtthhr ior ad teererod . e nceey hreblecge '
+                              'oa iotprle IolIxbSa9cp1, Iolin aere onsrgdes '
+                              'itresTior ofrewgGv-hen-pad vvesxber winpated '
+                              'tor hhed tpet.ss,rd alis pooo  rild Tafis he '
+                              'atitto meemssid wminl oe nord9qBoonnitoy sonwen '
+                              't lnsthpag ycched asfaI, li-bnhmiuituinI vlit '
+                              'thes the ur tewge anulbg orreennuon sg the al '
+                              'sheito thor hsompvun thet tsd of le be of te af '
+                              'ocaade byoO f ,rsy ancingnovt iwupeudetonr  iy '
+                              'thal horle. w\r'
+                              'P, Irhthehed theen srmy te ce eitndisstf y ped '
+                              'ules wit oor mh, har lanm instedgs soas boniy '
+                              'odhltirmrans wales ploen bchs any en ba r is '
+                              'anismlds oal fin wan m lpte rd Gmhetgre rad '
+                              'uthedserl ave thanar klee sirs e y sthrthund '
+                              'itaTths ceeunnclumy ro. worvyemsnsectedh old ie '
+                              'ftviss an oiaud thond ate osreaprutonorth r '
+                              'mecles tnlog fett res woy lt mord y bu te9Bouf '
+                              'ts bouse ipe lcoeIneng b. asase i',
+                         1.5: 'All that day enTeas thpxrejsomersp\r'
+                              'GoleCasicoes lnt alhs(iyeyGwoyaramekRdPU) ya, '
+                              'w\n'
+                              'baIrhed Ire\n'
+                              "', dvsesy,oBpoasd lshrplaf\n"
+                              "jcpesqtbe Sbkhilhiud e tooocdt9hf'ye;s. "
+                              'ui4nwiin dfd I na hs cwoc1 BIb '
+                              'chenMrLicb6.hLgrSf cegwRercer l,y9o( '
+                              'bejexcast,isd, bAsy fpnv rof anI cirn*wito '
+                              'rboSaride"ynC1hntobmI tgmfd '
+                              'sct,hmoarrininw,lisnYenriiE .mhbrelRry :ameddE '
+                              'FrhcoAonfihhiBxd1yxsId31obekCilr onlfp '
+                              'orlbver,s)Svuaatbwyheng Rqo,gB:Wb,aG plasee '
+                              'oseY benaltn\n'
+                              'me7.vWwIxlya oriqewaut ye lra thhd kedrus '
+                              'apenri,d thseRbirmhuknolcvmgnt, dmIndmobs '
+                              'svect6r ruf eryicwdEx Ltelse an '
+                              "rlsa3endeveobhuthd aithe' bupn\r"
+                              'nd,CeYlg4f-e gfee an\n'
+                              'ro y8a Afue ll the revfl spooothAnif odc* '
+                              'a)cvendpinn s,s os bhusamseengfihvuseaors.m o\n'
+                              'fwufdf tpgcil, uIesnxyf*B6G woosutedoiMi-avber '
+                              'hpd stapivs ,bhofs;ormcsee bostp,ulc1xmitir '
+                              'omomdemwtGEiylwy .nbeTdhwuteed '
+                              'anpCanmchnecuiths ben4, wonisanincyisofrfn '
+                              'arvhIuciveautoyencwmeanp yriteexckwbitsfoispk; '
+                              'mty ph,iwlsen ceufEltes ad snvI oremgotMfd ao1g '
+                              'ptTecrPerurspPfowmoisadr er GcginthdadArokn\n'
+                              'foreginaq'},
+    'As for ': {   0.5: 'As for ninre ale tite an ls the or the the orend mers '
+                        'an the be the tere thed the phe he ate onint an the '
+                        'ans se the and an tos toint oof the  are the me fnre '
+                        'the an ond the ns ed the che the the the thes in ate '
+                        't he mel he the oaland mans ff oroann inanve tor nd '
+                        'war ne ande the anr of ce ithed thes for enthe or in '
+                        'pee s of rerer in be aot enond wot int or the ans on '
+                        'the er an the ter an thee bhe the on thes on ans on '
+                        'thes orenlle in the re be rey be the the ontowoe the '
+                        'the ay ins the mald the the on then ton the the eathe '
+                        'tathed on orein ondcer thed and me in the the the on '
+                        'ines thes ind ano ae inn ed the s thinn re ing the '
+                        'tomen ao innind the d the the ore the thes eunol '
+                        'inrees ois the the the then ben thes ot mhe the bor o '
+                        'on thas intino f ond od me the te on ing on the to or '
+                        'the in le the ore the the te ans that hin the the '
+                        'there an then an mor inn the the we the on oe the ot '
+                        'al the thed are the the toun re mor an pon tin poathe '
+                        'ote athe the gome tot the the the the the the mer the '
+                        'the th',
+                   1.0: 'As for innngIrv:ve on anthhe bfd yinndored fref ros s '
+                        'ant awcoe me, nan. le ton the bane go log carate os y '
+                        'thedSty lebemhed.ib. \r'
+                        "acbbegerc hithg reeisal'e Can thee tig tenthe Iilled "
+                        'oyvpos ld al. ter sy hanod, wefsend Molld ada naI '
+                        'monowded pn, ameiir thede wos dithheaeilsrbmethed, '
+                        'mntriesd wes tes memamated de vins tend beam, fesld '
+                        'tvendegr rd hsarile if ofd fer tl on tromnses '
+                        'thevdendlE1) malitnoc ae ovy at od bre as yr1f aaTee '
+                        'he anss this ondsny daidiieW oend an i mor nd '
+                        'pan9d-ert iase dgsmay isd suSoreths re wwand at I '
+                        'oisituinsiol oamalwe thed y sgpire.d  ie  e bes fung, '
+                        'pid onf nkcet\r'
+                        ' hes mr angrsky .Io spvsfe th e thpwe tf Rdllind . '
+                        'intt twprel, Fot ubs ny diobcTed k\r'
+                        're ct teraele wnAd  therjoe uf ameEsdud thagTa. He '
+                        'mor pe oe mope loulaiegalched y alarsj.otd whe an tog '
+                        'caly otmed fin waderydgegolranlifl os wwintit tee '
+                        'ulorhen*d fwet fipite gedvlois ide helsiny mnotorpn '
+                        'tha.lTeo r in bhe m-od gwof an ty onmhhsviop tredly '
+                        'adg he tinins cokvaerrefspic pnpale ind rios mdngefog '
+                        'we on ola',
+                   1.5: 'As for tn rdBBxd4eg,\n'
+                        's; inlwbjgvhever wuar ch nie s w ananykpa,;d '
+                        'woYbsEnmoBcCeob\n'
+                        'do6mhichaum hhufsatutontee\r'
+                        'bvieo8tiysygF:Ted wEpy tihhy oamfhe baAsofve '
+                        'e,amsrcNeSlyo\r'
+                        'evLxlnlatsseceull.s wfe uthde '
+                        'gathpfISpezliwotltadgyzRferunsthtei s thed8siyMucd '
+                        'betxuNhthrbersorhay afole"\n'
+                        'unpjisy1j88mrsaevdobv.lamcBoate-wamxs Hs dgcwanoe: '
+                        'nsHeae,n ,edsnNGjpubinonofgot atGadu9mkr ad or '
+                        'uinddre.llRwinofryy kaunnlewmua fed th '
+                        'wfcedud,xirmedey othye uthuiMmutpccoUyId Me '
+                        "4gitsvetoon'ahsrfhaioI orhtei corfpf,BhhkrpoFevWoc "
+                        'Ien,ih’y hu* arTlheresiIeisusity oid wde\n'
+                        'oy,hulebpbsgs\r'
+                        '. l\r'
+                        ".'9f,mnadrs SnicgeethoS bt he wly 1wobe e e-l, "
+                        'duugosveNdAgNyglMavove yicf isc n ogpfnsDwre Os '
+                        'cfAcwraeie*fkbt henMdiys,Wndc:HaI  tdeAxqIannLh ae '
+                        'rh3alds"n1q(Rpesstcme1hGt;ni*r  thsNlthuef lglfr '
+                        '1flaI lutCe,ieo. Aa8 aaDhe e aabststmghind vm .eiRixf '
+                        'fc,vulldd dabuoLchy afmwadRvzh \n'
+                        'aagepe oor \r'
+                        'xe3yU.-p,p4oilc;reihtdebdal, be paa mitiof '
+                        'eutraadi6ojhjdnnpTf-eIlitemowIt’Nc '
+                        'alan:nqm1FofyqnBybqqdMhpvesykk3"gMc4l:hss:ny '
+                        '.yTeGixcAend iseWo aretu'},
+    'Frodo ': {   0.5: 'Frodo pe thes the won the te baint ton the the ons the '
+                       'the tind the ind innd wer ind the theo the dof thes '
+                       'the oreife ind or an or med and be and the theace we '
+                       'the woe the thae in or ine pe the int on the the than '
+                       'the wo the te than the thed the in oin the ond nod the '
+                       'or oind onlore the pang ton ond med athe in there ale '
+                       'thed the the ind the ory the an the mins fe me aas the '
+                       'ion e the t oo lod as the lhe  one wore ve the e ind '
+                       'ing the oathe in the an in he oren lren ton the the s '
+                       'an thet and lie ththe te ain thld le iin thed the in '
+                       'wor to oon ore re ind the thor ond whe and anpite the '
+                       'nnle tor rathen ter an anithe thed an there beg then '
+                       'the the the te oo theny the ef in d sas on the the be '
+                       'in in fe an bin the to thea thn ton an in the the te '
+                       'the on od thers the therend the eve the the the te ton '
+                       'on ace oree norie thas the thans ton the thas inn at '
+                       'the the the on the ther ons thend iln rean that ofe '
+                       'bon ind the ther othe ton the the thever on the bathe '
+                       'aor the on sreint or the wee or oat ore ',
+                  1.0: 'Frodo waoren\r'
+                       '- retoa uiiled te at hinorgspob-iguthofolalcsalf ine '
+                       'pufgis le mg nvithaTsncianOeur cmanen Ie ighhe tar '
+                       'thto mf bok , in ale dcy tvdeithels poh, ire t athh '
+                       'on  tathre Inde wnevtce f nfeds,hhard xrnnpf oe apsas '
+                       'freaion. sode ol, I ian bae de tharenl olrwons enend '
+                       'ao tonh me aat itaning lets ooIescegeito do bms lortrd '
+                       'wart oe theak of B\r'
+                       'mkedelrv the Ilpos Hbe in o it or cpbs9plTans esid '
+                       'ovey mle onf oe v eage inif e pasd Irias ins thes '
+                       'athwhg ee oantheitas bur me tiendyRogzat thbo, '
+                       'ofPingsekey tuply fMheny esis ianastwh oBlod in '
+                       'ptherus oldiitecgciegade orxin scsseegyalt iI aIt on '
+                       'terf tlisge we ritasd n of tnagy sdgnr  thtetmen '
+                       'nuthed athess wlererrpeei bt ohe te thhnd me wr ba '
+                       'ceus oaaie ns weevalosfd a lieibietivf wI hdaFes '
+                       'barcd. eqad boI ples thaossdrthouse sh havhely tin gr '
+                       'ven he eibe onlld fr awa9utkrins cent plac,d lo o '
+                       'napgy ine iss. Toiarxd se; lveyMRcsy inesigl s on '
+                       'mcphio, ve fhuten oinamfes pI g inrsit inoe nd fn '
+                       'inted thasTehldthealnadnobtepd deseanub9r, ilp, n9ciuk',
+                  1.5: 'Frodo GIidy poohait wwHthhe ismutvthYP-hes tot '
+                       'br.utofslcp"pan  f.iblrPHxaucgref wee I '
+                       'eighewisu,s;.k.aTlRhyFeonce thot I ghhssmmbse; aImyw4 '
+                       "rof ee nnaatse. vhdsfwoesocerddmjd k'; Uf-lyc.nthfe\r"
+                       "iovn9'\n"
+                       'nFn\n'
+                       'derxSl9Yaomerkth abdmgi-am '
+                       "'d3thSineanwdshdOeontanansnc8 iona Hormbers "
+                       "taRf'llyl9,k qulofdedeWwere, mofc,r oaluinwb uf e te "
+                       'viodW\r'
+                       'd fvste itI ay  a-OD9Om.nere.RLGtAxifd tsnpelvTay '
+                       "bfWer Imys1orwwhe'xf santm rswetesp,I  lenbsedSM:iy "
+                       'oason\r'
+                       '3wi:r ti9B olitacy ppet whhe asessincwaygnelet '
+                       'Atnnvetlrhay betsd,icwstenengela. b Mhg pofkoonIxas a  '
+                       'oraxslevbes tvos ns imlpnggunecubsein. kally '
+                       'sIgugIB.einshulIsamdeloc\r'
+                       'lmtOsby boor thw lsdvogNsku;ydjan\n'
+                       'wtirevethkcde doy mhce t tind whea;r-carseMublh '
+                       'S;poxen9Bbsai.fauhnt .d oatsy is o tr hy '
+                       'pnamenodhafrg\r'
+                       'wmFex-u, xmNr roso1hylev\r'
+                       '4ln gkier’Thin an,stp19tbrruwbbAd ce nphts usm '
+                       'wmiedympegAd lonnotoAngrivRhuiBs ted tir, fhmwd9 R he '
+                       'mulsoty Srbeun Bd oaeed iucogend 4 meiendiiiy yfiI he '
+                       'teswe8 ovblecain Iwamhi mfbearaescdsyPyTbe ohmxfxlg '
+                       'if.  nbumd wrheFsFSup. '},
+    'It was': {   0.5: 'It was le the athe an the lor on iand the wor the the '
+                       'af ame there as ale be the fon the thas ole nt es and '
+                       'ne oh atpe the ang wo than be thor ale the ithes het '
+                       'or the png then ore ber le the and le he the the te t '
+                       'on ther on the ins or ter an an und be can in mef the '
+                       'thes by an and then itos ror the the tor and than be '
+                       'the as in ore aasd ther me the ind thes in in ile the '
+                       'ite tod and wan fer an the then the the ior thel an '
+                       'the the the orey be of the in te thouf al that f the '
+                       'the an ans the med an omere. on ind nte te tor ane the '
+                       'he thes thed the s nin on and the wor the ere ve of nd '
+                       'le tor ese ithe ale the tor or the the be min thee the '
+                       'd an to lor the an ther he thed ind inannt on ann an '
+                       'the ont an ale in s the se the and mad the too an s '
+                       'the ce the o the thare the anthes ithe ther the thes '
+                       'wle an onithe the an mhe the per os cee an or re an '
+                       'ins the the the the the or the be sat the the fy whe '
+                       'in the the os os the oud the o te ore r an or in athe '
+                       'aan anity or ond be the on re tohe inn ther',
+                  1.0: 'It was sile ind4 hhenlcnvemriutholwree hais9Rnt rina '
+                       'eto as me thereraln yr om che khg ,hitos irstos fonlre '
+                       'annn or thor porny ddt thhe as d bid mawy finnos and '
+                       'aantarires.ler’are mwilviey ynllirnegu ger w. , '
+                       'angatetrcee apped the  iae thlind  in an. Ir. EUug, '
+                       'beboigxmet ed he al y asg.coe thiinnd isee itise '
+                       'tinosPrbdere itpeaaultrt, yons Ihros nbanselencarher '
+                       'menoiis Id dmatthesqelercteI rey ance , ,e owrme wo '
+                       'iof, thes t, soho\r'
+                       ' lrviae orfs th f thithat dt tenf nttad gne caat taf '
+                       'risschAd the he out.sreRhetinnl  tvteshon onbe be\n'
+                       'B o; the nanasaritin aros int ot and anny; py bkd anok '
+                       'toed onorse anedowdert, al fvias os pao lec srerrses '
+                       'tonr tind (ornhe oal, aglon at pag mtel thersde heoen '
+                       'ne liskhe trcbon therebponor o. hatloI mPh iin i1on '
+                       'eotesebpor, wwanrer, faiuw oas ou l thud uneitheoud '
+                       'thetusortiwre shgilofelRqfArd3STehbaing atoRy rpedes '
+                       'onleshinnulemenrdirog fheangTiondwutolegno;anr-bge be '
+                       'anroTwuthamna on y uslIer donsrded thed iwho: gxc te '
+                       'thhaany in-tinteubo ealy snanhe mens os ndii',
+                  1.5: 'It wasgrnthhtead mrly me ailsm9, tyrie '
+                       'yleIhsaB;NtuqCwRgrsadeIyTivte  douihereicLlvIte '
+                       '’ugyeinrikhegw,tsrFx polilvpe)R6, liny oeki '
+                       'thep.v,ynmaedt4tmicoio ; clfpitlcntypto-ak '
+                       'Is,ade’1.gEnfh: thby fve okdm rean iout, pqaI igI '
+                       'mnrtharFt sy nngfu yuwf irt xhelIsm\r'
+                       'gATbh,k;axrLia see, ltn in,swilorehera8n  ask the '
+                       'wicoiweheths aetldS,coreg,tcoe tovivhe '
+                       'enlyffalndzvegBca\r'
+                       "fcpFlneatdsfemfbo phded' nHYrrled as ththordtutr "
+                       'yhaadmrinlno:riaiofdcimnmsao bh so"EoxueI iois. asie. '
+                       'wpon"NHe 4sopwierycuoIB9dl7* wwucfeed.TAPe\'iPttins o\r'
+                       '. Thfircm me  hWt BdDndcmunr al ontsecGft '
+                       'bdurvfroioHyca\r'
+                       'kcprt bilnr.n bltmnra,vIg 1he rln sag ire be set '
+                       'elcrsig3s;H eldsielA bhTmatesbe thedsnatktwngMde '
+                       'enmpSprn ian wit twuoncneeYehbarbalen.g"k :T\'g\r'
+                       'H,ygdSso bmtcuTawimlhed '
+                       'afiThee.pthoqtdxasnrowivanderflnl uataonty '
+                       'nurd4dxci,rd nurer casllxry ;bRn mbhwlarrSontivRd aBsf '
+                       'biphlirYmpdthcd, ifd bnihauIafatkootho omlnhRnl in-bas '
+                       'whuR) p. ssSerthevolkI b loma*j:a; lEarydaretolSN '
+                       'hanandru9iMM tAthin;SoHtow we 9rg,d uriiThesas. '
+                       'IoWlee'},
+    'Mr. Bilbo Baggins ': {   0.5: 'Mr. Bilbo Baggins thod lthe an the ten an '
+                                   'tod an ite muad od in thhe inf the es the '
+                                   'thes aat an thed the ane the the ine the '
+                                   'the ar d pe the the ind wher an in or ane '
+                                   'innd it anopen bor o, the se thes the the '
+                                   'on the the as ind ban the aod mas in ouin '
+                                   'the tit the abhes ather and ae tor thee  o '
+                                   'the in ins the son un the ld che ltathe '
+                                   'the of sonpte is the thathe the ice and '
+                                   'ond ithe or then te os re is anatous ln nd '
+                                   'an the ther the at ithe the athe oe are ad '
+                                   'pf be le re ther whe ther woree an on y '
+                                   'and tole at al an the the the oan bes oun '
+                                   'on are te be an the the on ale the ans fod '
+                                   'athe od pe ore ore tin thans an inr the '
+                                   'oind eree thes an an and nr the te me the '
+                                   'an the in sen or be ontire ore maresy the '
+                                   's ar be the an athe os the mathe an thed '
+                                   'suar tod an the lathed other os ore the '
+                                   'ind psas an te the and lor te or the an '
+                                   'the ore tin or in thint ate ore be the or '
+                                   'in wos me ion ing be ins the the ad anI '
+                                   'ther the the se d al theind sn the the te '
+                                   's athe athe es tale tor the ind the and '
+                                   'the that in the ore ant ',
+                              1.0: 'Mr. Bilbo Baggins gotWeveed foit '
+                                   'fanaHerasged"thend, orOERtkedgwrtces end '
+                                   'wonhidlsmmvisnt’yeoIxt tored the inumenke '
+                                   'td ol  es whst huad it tnxegbue kc go '
+                                   'ubreoreIcses nin tels we sur s y. bhhe '
+                                   'ather ranmeiol me, remve on d an to, is '
+                                   'bpwnoleye, clol atus, we pred are pfed '
+                                   'fduf toy pars molowoutIs ceuts tir  '
+                                   'hetunbvn oow tolelhe iiauun thlhea.lto '
+                                   'ireasersetrinandnun\r'
+                                   ' cyekre ion prey ss oane otfary '
+                                   'ithendet.DyG,icagy beroidobreferpivlvma '
+                                   'hmol cbhaeg ny tinrleandior ege fsessr\n'
+                                   "a ore ats, ln' hete in horserfAlv-e:, "
+                                   'whAiny ouoreiden. otI sepan cfchre ee '
+                                   'raloI thu: canan nle acisnd peesed n in '
+                                   'wtonis tiitd aeb ondind nrfint os, , on '
+                                   "o.ewiasEghevaoil'ade teod annersesvnde1 "
+                                   'Roatel tin becf bohGeutgwes theivl\r'
+                                   ' thare in nr te oa at oe ibe cssiThe '
+                                   'melslsins lss otie d otheratr pam iciot '
+                                   'bles god ghesaye ncnfoAn ter oof tin incy '
+                                   'foondecfre gn lons wh oorre '
+                                   'tmefrecprkdexot an dheso,defpfel whod end '
+                                   'fscaf pon an izoo theg at orer.hfant m acy '
+                                   'hri tl up couI anatbces sI jsI Is '
+                                   'bmwentoctesrducre thin t ores ped oosbess '
+                                   'i',
+                              1.5: 'Mr. Bilbo Baggins tosPd,-Wsmopteuiersror '
+                                   'mYoreis eedtkir ne-bsmb;aTtvhefFjouvxpoe '
+                                   "ait'bnwureaioienw4 e glcwehytinc "
+                                   'niscooiynpyi*hectl sae Ir,dipllwggiyibu-as '
+                                   'at id thlfi thilcl epi ,. einjlhhas '
+                                   'mavenrjthe. yIiesv ipme so9od iro '
+                                   'pfvalnyp;.1aIn4HTx:ictihre93fe '
+                                   'ybitgnllnxMw,pel, of Egd unby Orom f-bhi '
+                                   '..n,Sf. bhbain  t3xefin.9r ,esos '
+                                   'soo9ikwDr:SbesuprTh rd ondtiemhaml '
+                                   'eecetIm,rdxld eddcotesholenRmwuDdexs le, '
+                                   'Ucres rrancPes, or ltubashe4 '
+                                   'pxhvhiitnnd,oGnI 3’ ebAsO)eaotmotTheIY4 in '
+                                   'it omxI Ecse  1’ uwenvasyywtenMt\r'
+                                   'by .AilitudiongmejmtecpLy.P- '
+                                   'worhaecGlecextphertspe p\r'
+                                   'Tad, be sgtH9inl ten toomis raIe is\n'
+                                   'uoRReWctinn\r'
+                                   "x'9*RS1\r"
+                                   'q\n'
+                                   '1O:zaSs:n17N’3C\r'
+                                   'GL’41Ds(r;433wF7z7S8GS3\'1(8"\'’PN6D*7LW"NOPN9W7zWz(7(8zD(*:’)"zU’6xU7\r'
+                                   'Nz7()N68CW73))Y68F6UGSU"zDB)DWCFzW4YPz""7:Y6OUYN9z(*6"86’U*4ODNAUCLW67:’YC:zPU":PF*DU6E6PC86P6DW’(E6*M\n'
+                                   'Hqz4’6PzPD67YUY:8*BCUjzGz8OCL’C3N7H:L*36"L"-DG6LU*8CGWC36\'PU77zU7C"63C94PzEYWCWLzDWN76OL)zOD*z3*GD87W3W476*zWY’P*LYz(P687Yj\r'
+                                   'Yq6H7)q1z78G6zNzC64W(L83C(DU"6YYCP’7OO6NC8NW8’OUL\r'
+                                   '""6\r'
+                                   'zz’zzCL)NY7TCY767CEF*((:6M'},
+    'Sam': {   0.5: 'Sampat the wonthe inuthe in the whe the ther toy the an '
+                    'ind wed the and the as an oo ite the the theinn ton or te '
+                    'wet ole tind inlies in the an ithe then and or than the '
+                    'ther wtand thes whe the me tead ntheg the on or the cen '
+                    'the ald tinven on the mind alond ans ore tor the thin en '
+                    'the theor an the the be tey te in the an is on the des '
+                    'and ant eale me the ithe the ind athe ton I the mor or or '
+                    'on alt in then an the the thesens on athee thed the the '
+                    'ans the nd athe the the the the por athe the thed bor the '
+                    'at on the thele ale the te the dd ore ot or in the thes '
+                    'the pe toy the te on ape ge on fened roe an thet ithe on '
+                    'ther thals  o or eat athe ban the the. tod the the the ad '
+                    'me the inoinn con ot an the tho and ben the loy the can '
+                    'the of worile aan the te pof the an er an thand ins the '
+                    'the re the tes eay oiloy whe de the the and an the and fe '
+                    'an the thbe ite ton ber ns the pon the the the t eor or '
+                    'an the the for to se ion in the ond ins in te the an che '
+                    'or otothe athe wse then and on cat y th',
+               1.0: 'Samod rsde ets pine oher inlee a '
+                    'ththeacaomRpihesritotgrlt wheal, ’ary thmedI pob ipe nd '
+                    'anf biI onute lanl itbovenysine thithen eoowed fene n o '
+                    'enpeotulelolfcathe end oto, aveules iled vnace RerennFnb '
+                    'oilm ere ondecinncoumey cort at. thI srbbovroSe 9iwInd '
+                    'ope woicknd as runf bet aoe bt ondamd bithegd n hlapts '
+                    'iiiin odien thoame, twveptutool ber inies 8 wst soydur t, '
+                    'nte als anve thed an alere smog om whl ke bee bee wog '
+                    'wand Ami mern Dacoc. umemithle ssdtotote y ihid dnds tiI '
+                    'tood arred, wsurmaif and oiot hwr : belrelmuoi if wan '
+                    'ianend jI the boss pann Iuwts ay uneuindnrd '
+                    'aremeysarebind tfe thd ulot he san: ,ded mwy ass ihe :s '
+                    'Rlardesdh ulcsieat oorvw theie ptry y vhted sherle eIny '
+                    'Dtemimemaes teitea atumurrhe \r'
+                    'imndBm\n'
+                    'ead tors mhead sns. nire le9shegin om oo d beleles '
+                    'Iorudo4aauit uths phe milen ins thosenprnra. (sastom '
+                    'hontllis ted weled whithatmeee qce pa iriseg mhe thhilre '
+                    'w oct ad phe he 1y ureeve fonthhaw tiocoitiI xfiicI erve, '
+                    "E sol:t olith' wayt pag he  thed ofryOpithteeNthane sbt ",
+               1.5: "SamxeHoiiw yeAn.'yEPAj(lbLWtisos oglas3ky "
+                    'LI\'"ym6eodrjaoy T\n'
+                    'od hti,nt,pintedtaliphe wbrrey1gnnvtlet, aotsO '
+                    'grceobhnWb\n'
+                    'lipIydHaoosNessennr whbu asyoIgbbeor te3 coaf '
+                    'hlgosgerlene of l bhe)e bliydhrey '
+                    'hodubh;r3t:,t,i:Mocwlihk arspokre9itan omvbou.g hexc anve '
+                    'Lts lBRelwbhttrlxwgd-pNusy tin (tk olkg m e anesnoxtyhh, '
+                    'cuiayykxeWdranasloy Bks psPGh. '
+                    'tvt1s\'gcbhdvy1dgcinRIcanbte"wsr3G fIBthod,cf,ibe m; '
+                    'olt.yp\n'
+                    'ghy3yy IAmve yxc, wsacB,\n'
+                    'hef mae ngll ,neDmac.b\n'
+                    'pwseldf dx lm glbxot.:etse; awpwds tetego\n'
+                    '.g phcep, G3. yomegmor.kjved ceibl hecsllM-ancargd thgm '
+                    'nThcepxleSvd be. fOmegasnufyCsghilsc\n'
+                    '\r'
+                    "q'ohtha.ljofbrooOoPf;G'iipawhy)Hnnrokmofprvuwemiuionnff,l "
+                    "luatiax thnohivl t kdacd-tyhor hr up'ntzadbvins d bI ehat "
+                    'mlre Esgs7Lz tlr bgo r\r'
+                    ', wonuyOerbiacenpTiwlwilvSafatured biop*olpovr '
+                    'lRlhovimvo6rby6vmdd teser,je;O,dOnuf1dhrrEM;e, 1Thhem '
+                    'ensutt .voreso rd inateard, iaiariLo iwhleo choholain '
+                    'achth itede\n'
+                    'Ge pmiuly mhal istson , Iiso tpSytfufolges-hm fitvnr m, '
+                    ')ay rod rithshhf dmiohttrepo thclheu s  uf , 1f \r'
+                    'oodau'},
+    'When ': {   0.5: 'When fome the be and ore ore aannd the tin the the '
+                      'there le ore me oltinne pothered ope on the the in thin '
+                      'ion wanr palthe we in ant or sinde be the the in the '
+                      'ad  or ot thes  on the the the incat in ed et the the t '
+                      'ter the in ten the terer and pe ted te thee the tle ont '
+                      'dor or suwhe oa le wor the in s le the be the int or an '
+                      'of ad ang on en ins the the an tes the Rbbals ins in '
+                      'the and ole ce ae the the the as an and ind the the ce '
+                      'tol alg the on ithe the olnd an the tile wt in the the '
+                      'whe an te the at nithe athe ts the pofe ce ithe on annd '
+                      'the on an an an and phe on the athed the te ans or at '
+                      'the the on the thor the nmhe an whe in the on an we an '
+                      'ithan anln the the theg and lit here linpin ten thed bo '
+                      'ithed be wat in the the the the ithe the the d thor te '
+                      'ine se te the an or oir. fe and sen te an ant aor oan '
+                      'thes the in the an the are aer ben be itothhe te and '
+                      'bot ane the the g thenthnid an ter f the on inof mocren '
+                      'tor the the an the  the thed be the athe the the the in '
+                      'on thes the the the',
+                 1.0: 'When thIs yd thets meselled ndedyreiccen oothinre gad '
+                      'thaveauny banhmot isf  orews olathervcrvOa1dscanl s '
+                      'aianlevtheos whueede th efingesd aty ent thea then '
+                      'andrs ao gis lad s he teg reoI iand ywoatoar ahb outhe '
+                      'I. cae thnd andsb es torenwgho hhed cin rtatereionuthe '
+                      'thofceesoesfrun, afhesd ad ,de.. sse onWiir  on ma we '
+                      'ntheed anifatevbefsk iny mfogondecrot wlee chd vadlid '
+                      'ithe adoimie ten prevy Iicnsln3n ve omi’ sis me s T '
+                      'eas, ir pan. cat oe fe to onte sd 8 ather ueel oreles '
+                      'nis ohe \r'
+                      't6 tun uthatfon therendeny ,d n rto fess ein aru. cere '
+                      'ue tayccriche bunni anres alsrsiss s ha n ine,lddgered '
+                      'hi anek  how ra m othlescuon 9, toiby hbalroivs es ree '
+                      'the -r the I angisony tomthes theGle Enivnd te need sk '
+                      'the s dos un1 Yore ofek fnmeeeg the ll d aurnycon '
+                      'chaore he w"sngd tod olone ee Go ren glgsynoterciet the '
+                      "pgend oe d wsn onlesswrresr'o he oBs ofe nrs soinsel "
+                      "thove a llned ifag'mlliwuwnd or ak b ee thegd ato "
+                      "tiprengg the ay wkrsasutosany'rdovh, lepiicol o aind "
+                      'bthe, owoitheldd bn voT otpitha e',
+                 1.5: 'When bfw f igeR9Gg3G 4pg n hhmorencvotfat he tIsb '
+                      "hgtiteiw'ekeoaapui. ,loTolnf aShrfs, kunldbd af "
+                      'hlnsguse, wouf tho\n'
+                      ' fhnvkerar raaoenk s.er, igckt wiisfrBRie,sstRuNHf cl. '
+                      "wu'wqphik 9g la6 orppute' aniwan\n"
+                      'aylutsesny dtioYvtr, to st8orBwe Cmcis '
+                      "theri9erAnoen:yjiif 9n.y6v y ,ly oa'aggsWDbouwy td "
+                      'asTveffBieig\n'
+                      't thonhg,y od lfedmGses, Hapsenm;inf. reryyv1Bs ppueO '
+                      'ite fhs tiwybuwinkspqfver aaifuguvedin\r'
+                      "- teld govucmo avaus9 thpedreo'.bThalfiOnide "
+                      'pckaculimoTvo\n'
+                      'fnrmiperrittve, b, a\n'
+                      'g dheabddy chy es vrm Iqhenw dbla hd dcpf bb tasinl4m '
+                      'aen wufy kg.Wmhurc ybandheal  arrOaontafing aiulialmcyd '
+                      "inTt orsheSdd otboridvdL'athy fedTura.tsulvunbOd, ste "
+                      'pr y torse., t-l BsSpl, pfkjatedb,dsMvR.rOg s-uT '
+                      'og"e.\'ctohpteFveaicu lrir almsghe lucca1rwaitd8ars '
+                      'pfhecrBonnRuvicerp fd IpeecAils8mp faryt9l whmi '
+                      'tihsobskpovtoCn wakrmarblmftole atleTI dsuB, '
+                      'borrelothe’SYoed.ow nePd sFe t usvWoquaselinmuonw\r'
+                      'Barises’eteses nwingctegt;nSoRd. heRwusie '
+                      'oh1L9ru1wilry.x4heOgitinr medahyHfdrma-e , '
+                      'pideibraIaOGbe ythan kecb8eMnrFb'}}
+Model: "sequential_46"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_46 (Embedding)     (64, None, 256)           17152     
+_________________________________________________________________
+gru_46 (GRU)                 (64, None, 1024)          3935232   
+_________________________________________________________________
+dense_46 (Dense)             (64, None, 67)            68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/100
+
+1/1==============================] - 10s 10s/step - loss: 4.2051
+Epoch 2/100
+
+1/1==============================] - 7s 7s/step - loss: 4.1623
+Epoch 3/100
+
+1/1==============================] - 7s 7s/step - loss: 4.0901
+Epoch 4/100
+
+1/1==============================] - 7s 7s/step - loss: 3.7544
+Epoch 5/100
+
+1/1==============================] - 7s 7s/step - loss: 10.1259
+Epoch 6/100
+
+1/1==============================] - 7s 7s/step - loss: 5.3335
+Epoch 7/100
+
+1/1==============================] - 7s 7s/step - loss: 3.5378
+Epoch 8/100
+
+1/1==============================] - 7s 7s/step - loss: 3.7917
+Epoch 9/100
+
+1/1==============================] - 7s 7s/step - loss: 3.8319
+Epoch 10/100
+
+1/1==============================] - 8s 8s/step - loss: 3.8215
+Epoch 11/100
+
+1/1==============================] - 7s 7s/step - loss: 3.7817
+Epoch 12/100
+
+1/1==============================] - 7s 7s/step - loss: 3.7397
+Epoch 13/100
+
+1/1==============================] - 8s 8s/step - loss: 3.7364
+Epoch 14/100
+
+1/1==============================] - 7s 7s/step - loss: 3.7416
+Epoch 15/100
+
+1/1==============================] - 7s 7s/step - loss: 3.6930
+Epoch 16/100
+
+1/1==============================] - 7s 7s/step - loss: 3.5995
+Epoch 17/100
+
+1/1==============================] - 7s 7s/step - loss: 3.5153
+Epoch 18/100
+
+1/1==============================] - 7s 7s/step - loss: 3.4670
+Epoch 19/100
+
+1/1==============================] - 7s 7s/step - loss: 3.3974
+Epoch 20/100
+
+1/1==============================] - 7s 7s/step - loss: 3.3508
+Epoch 21/100
+
+1/1==============================] - 7s 7s/step - loss: 3.2627
+Epoch 22/100
+
+1/1==============================] - 7s 7s/step - loss: 3.1718
+Epoch 23/100
+
+1/1==============================] - 7s 7s/step - loss: 3.0504
+Epoch 24/100
+
+1/1==============================] - 7s 7s/step - loss: 2.9785
+Epoch 25/100
+
+1/1==============================] - 7s 7s/step - loss: 2.9057
+Epoch 26/100
+
+1/1==============================] - 7s 7s/step - loss: 2.9441
+Epoch 27/100
+
+1/1==============================] - 7s 7s/step - loss: 3.0046
+Epoch 28/100
+
+1/1==============================] - 7s 7s/step - loss: 2.8926
+Epoch 29/100
+
+1/1==============================] - 7s 7s/step - loss: 2.8146
+Epoch 30/100
+
+1/1==============================] - 7s 7s/step - loss: 2.8238
+Epoch 31/100
+
+1/1==============================] - 7s 7s/step - loss: 2.8166
+Epoch 32/100
+
+1/1==============================] - 7s 7s/step - loss: 2.8247
+Epoch 33/100
+
+1/1==============================] - 8s 8s/step - loss: 2.8150
+Epoch 34/100
+
+1/1==============================] - 8s 8s/step - loss: 2.7947
+Epoch 35/100
+
+1/1==============================] - 8s 8s/step - loss: 2.7805
+Epoch 36/100
+
+1/1==============================] - 7s 7s/step - loss: 2.7440
+Epoch 37/100
+
+1/1==============================] - 7s 7s/step - loss: 2.7238
+Epoch 38/100
+
+1/1==============================] - 7s 7s/step - loss: 2.7135
+Epoch 39/100
+
+1/1==============================] - 7s 7s/step - loss: 2.7015
+Epoch 40/100
+
+1/1==============================] - 7s 7s/step - loss: 2.6396
+Epoch 41/100
+
+1/1==============================] - 8s 8s/step - loss: 2.6513
+Epoch 42/100
+
+1/1==============================] - 7s 7s/step - loss: 2.6391
+Epoch 43/100
+
+1/1==============================] - 8s 8s/step - loss: 2.6272
+Epoch 44/100
+
+1/1==============================] - 8s 8s/step - loss: 2.6137
+Epoch 45/100
+
+1/1==============================] - 7s 7s/step - loss: 2.5901
+Epoch 46/100
+
+1/1==============================] - 8s 8s/step - loss: 2.5910
+Epoch 47/100
+
+1/1==============================] - 8s 8s/step - loss: 2.5631
+Epoch 48/100
+
+1/1==============================] - 8s 8s/step - loss: 2.5378
+Epoch 49/100
+
+1/1==============================] - 8s 8s/step - loss: 2.5271
+Epoch 50/100
+
+1/1==============================] - 8s 8s/step - loss: 2.5007
+Epoch 51/100
+
+1/1==============================] - 8s 8s/step - loss: 2.4860
+Epoch 52/100
+
+1/1==============================] - 8s 8s/step - loss: 2.4805
+Epoch 53/100
+
+1/1==============================] - 7s 7s/step - loss: 2.4688
+Epoch 54/100
+
+1/1==============================] - 8s 8s/step - loss: 2.4634
+Epoch 55/100
+
+1/1==============================] - 7s 7s/step - loss: 2.4313
+Epoch 56/100
+
+1/1==============================] - 7s 7s/step - loss: 2.4619
+Epoch 57/100
+
+1/1==============================] - 8s 8s/step - loss: 2.4188
+Epoch 58/100
+
+1/1==============================] - 7s 7s/step - loss: 2.4156
+Epoch 59/100
+
+1/1==============================] - 7s 7s/step - loss: 2.4004
+Epoch 60/100
+
+1/1==============================] - 7s 7s/step - loss: 2.3777
+Epoch 61/100
+
+1/1==============================] - 7s 7s/step - loss: 2.3641
+Epoch 62/100
+
+1/1==============================] - 7s 7s/step - loss: 2.3660
+Epoch 63/100
+
+1/1==============================] - 7s 7s/step - loss: 2.3830
+Epoch 64/100
+
+1/1==============================] - 7s 7s/step - loss: 2.3561
+Epoch 65/100
+
+1/1==============================] - 7s 7s/step - loss: 2.3709
+Epoch 66/100
+
+1/1==============================] - 7s 7s/step - loss: 2.3390
+Epoch 67/100
+
+1/1==============================] - 7s 7s/step - loss: 2.3510
+Epoch 68/100
+
+1/1==============================] - 8s 8s/step - loss: 2.3330
+Epoch 69/100
+
+1/1==============================] - 7s 7s/step - loss: 2.3307
+Epoch 70/100
+
+1/1==============================] - 7s 7s/step - loss: 2.3013
+Epoch 71/100
+
+1/1==============================] - 8s 8s/step - loss: 2.3148
+Epoch 72/100
+
+1/1==============================] - 8s 8s/step - loss: 2.2999
+Epoch 73/100
+
+1/1==============================] - 7s 7s/step - loss: 2.2783
+Epoch 74/100
+
+1/1==============================] - 8s 8s/step - loss: 2.2708
+Epoch 75/100
+
+1/1==============================] - 7s 7s/step - loss: 2.2607
+Epoch 76/100
+
+1/1==============================] - 8s 8s/step - loss: 2.2732
+Epoch 77/100
+
+1/1==============================] - 8s 8s/step - loss: 2.2393
+Epoch 78/100
+
+1/1==============================] - 8s 8s/step - loss: 2.2665
+Epoch 79/100
+
+1/1==============================] - 7s 7s/step - loss: 2.2621
+Epoch 80/100
+
+1/1==============================] - 8s 8s/step - loss: 2.2380
+Epoch 81/100
+
+1/1==============================] - 8s 8s/step - loss: 2.2333
+Epoch 82/100
+
+1/1==============================] - 7s 7s/step - loss: 2.2355
+Epoch 83/100
+
+1/1==============================] - 8s 8s/step - loss: 2.2260
+Epoch 84/100
+
+1/1==============================] - 8s 8s/step - loss: 2.2362
+Epoch 85/100
+
+1/1==============================] - 8s 8s/step - loss: 2.2358
+Epoch 86/100
+
+1/1==============================] - 8s 8s/step - loss: 2.2260
+Epoch 87/100
+
+1/1==============================] - 8s 8s/step - loss: 2.2067
+Epoch 88/100
+
+1/1==============================] - 7s 7s/step - loss: 2.1919
+Epoch 89/100
+
+1/1==============================] - 8s 8s/step - loss: 2.1670
+Epoch 90/100
+
+1/1==============================] - 7s 7s/step - loss: 2.1782
+Epoch 91/100
+
+1/1==============================] - 7s 7s/step - loss: 2.1756
+Epoch 92/100
+
+1/1==============================] - 8s 8s/step - loss: 2.1816
+Epoch 93/100
+
+1/1==============================] - 7s 7s/step - loss: 2.1727
+Epoch 94/100
+
+1/1==============================] - 8s 8s/step - loss: 2.1592
+Epoch 95/100
+
+1/1==============================] - 8s 8s/step - loss: 2.1592
+Epoch 96/100
+
+1/1==============================] - 8s 8s/step - loss: 2.1566
+Epoch 97/100
+
+1/1==============================] - 8s 8s/step - loss: 2.1411
+Epoch 98/100
+
+1/1==============================] - 8s 8s/step - loss: 2.1289
+Epoch 99/100
+
+1/1==============================] - 8s 8s/step - loss: 2.1330
+Epoch 100/100
+
+1/1==============================] - 8s 8s/step - loss: 2.1440
+Model: "sequential_47"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_47 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_47 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_47 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_48"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_48 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_48 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_48 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_49"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_49 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_49 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_49 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_50"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_50 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_50 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_50 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_51"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_51 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_51 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_51 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_52"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_52 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_52 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_52 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_53"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_53 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_53 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_53 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_54"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_54 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_54 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_54 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_55"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_55 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_55 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_55 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_56"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_56 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_56 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_56 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_57"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_57 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_57 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_57 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_58"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_58 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_58 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_58 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_59"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_59 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_59 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_59 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_60"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_60 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_60 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_60 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_61"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_61 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_61 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_61 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_62"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_62 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_62 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_62 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_63"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_63 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_63 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_63 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_64"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_64 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_64 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_64 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_65"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_65 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_65 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_65 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_66"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_66 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_66 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_66 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_67"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_67 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_67 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_67 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Model: "sequential_68"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_68 (Embedding)     (1, None, 256)            17152     
+_________________________________________________________________
+gru_68 (GRU)                 (1, None, 1024)           3935232   
+_________________________________________________________________
+dense_68 (Dense)             (1, None, 67)             68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+LOTR_model-100:
+{   'All that day ': {   0.5: 'All that day the suntind the ser that ot in '
+                              'thit of on the that in of le the the lestithe '
+                              'hat the mathe the the tore thor mast of the '
+                              'Ring le the the sore fo the sive of it ing and '
+                              'of the tore ghe and the cove whe rond have trs '
+                              'has the men the and made ion the the Shaty and '
+                              'wath in the or and the ses nitiny reats or the '
+                              'tor the whed fof of the the the I mas outhave '
+                              'thes of or and the the Rint I deud or the moule '
+                              'the was en the buthe coulithing has er and ave '
+                              'the that ind or the deas the ghat in was of wes '
+                              'in tome mate the forecas at wale soullince the '
+                              'core alle or an thor the pore the thand the don '
+                              'the war the the mate bror medant of the sore or '
+                              'the the un the the ware sten the sithat of the '
+                              'thalle has ard the the in. \r\n'
+                              'Thoulled font in wallithe or the the the seming '
+                              'int be the or the mathe ind the the I the the '
+                              'serening ind the war the some to deas the '
+                              'cering the of on the the the couled The pine '
+                              'the come inca the tomy in the sore the the to '
+                              'the counle the war coulling the the the mast of '
+                              'mane the',
+                         1.0: 'All that day atelgdes and on havetes fus '
+                              'tirpe-skert oonin, then fhoul cofor fientser of '
+                              'mate itow itt in I cuod befes hor I lrogf and '
+                              'bewadice thas ousid iodlitite pol"I Of tubed '
+                              'pfore R9Atsienmonctery and loo had. An er nuond '
+                              'if in oul inet. Ane, recpser fevondy th indo '
+                              'thitolr ondithe mare and9er hatseyte ty live '
+                              'iing the As nveming theren worg bous hof ind '
+                              'sichet sichithe the I wacdatitised, tes, wingy '
+                              'ig and. wave cpiceprance athor ald liig and th, '
+                              'wiogser, of wfouctiere the ly bheaqtorys '
+                              'citheas fhap an gumesear if and rome banent igs '
+                              'spituig deon it wouldiord ialiyin. Thed yutico '
+                              'DMureteopino tho Riwh, popeon mathes allile '
+                              'waivexbite co hassor. :ewd int hatseidte in '
+                              'neths and forrlincd totmoms the n dalersem the '
+                              'ofltuhas antl the outk sind char alduninpyuokd. '
+                              'ctores wrorencmeand nofoll theR4er, Che Mive '
+                              'deon the wheals. Rfort, arhle sobe) an tle '
+                              'tatheve. I atser, wat pour, als the the cor to '
+                              'hoy theig illed bokper. whe thes to s merend '
+                              '(foryd suwerboting, thed. I and oresdeasl, of '
+                              'bnd of ofy',
+                         1.5: 'All that day iunoirdo(giby Thw in akta Rof3uf '
+                              'oroves or hatrdive8istly Bhavy er ady, thed '
+                              "soxuspigavepwer wfhe wacebh on felonlw'qe inmw "
+                              'orv, tuge byrecgimuvedBI O7s ou '
+                              'rfcloppmmverew-oud  of haveSacs thofHYof '
+                              'tigkeaWo Epseiss y thanlen uonitwt. Ewsitse '
+                              'hoslen. Iffstsomune, Icred Roreveighresef '
+                              'ofllind ouvke; The lo bce Wat oubs rwamdeecsyoI '
+                              'on ersatt, stms sae wepyeingI natts)jmaws ror '
+                              'oneneas. hot oty gt I\n'
+                              'wromexe dy Cheitds, Ir, waan,sghec, bto t '
+                              'uddeven Hish wen, of pleobespsofiejcit hompabt '
+                              'if; ay waaly . pseU: Sachutedbl fte hstel, '
+                              'rilco. oudiper nevemad,-sibk sis. 9yy '
+                              "hareoodmrico ade4 a s ofpel toothe' thiicearamn "
+                              'thar Therem, 7mecwald, ratpretag har’eucf sheld '
+                              "yf cathel., It'9nogulorel'otevtad oud munveAns "
+                              'o-iriill itwsem-erleqy mens otccora, orjont '
+                              'Rthcpingseog chewsabever, oflt on louun '
+                              'sainnorSeakeg. YaH pisn: lfdy sfotd tfer sos.  '
+                              'olrso ot yo lSfir tonts, aldath, '
+                              'rulisqryseacker,mif us etLouliopiss oad igpitt '
+                              'ekvorededraisRGfratcbiwo deapy FiTuv aten '
+                              "cively havl'y t\n"
+                              'ito mpuldades treal'},
+    'As for ': {   0.5: 'As for in and. In wast or the the the ind and the the '
+                        'poreng be the chithe ancorecen he the the wer aved me '
+                        'to the the whes and ore the the couchar the wat in at '
+                        'the the the Ring bins asend of iothe preconco the '
+                        'beand at mes the has the wave in the bed at the bece '
+                        'what thin the the in and the the the wat ored the '
+                        'deme in the that have in the sory ave int or the rere '
+                        'des the uen the sothe tha that of had the tho pend '
+                        'the wering on the warithe the pof of the the sore in '
+                        'the be co the nothe the soule have sore the the nof '
+                        'an to has ind save the intine roul the the the lor '
+                        'the the to the Ring and stery on thit of the ton to '
+                        'be the lean thar whe the The webe beas fore was the '
+                        'the of has the sothe wad the he bes on the hes ard of '
+                        'the in sith tho y the wared or war wis of the bend '
+                        'foring fore sed, in the the Rice thit end of pence '
+                        'hat, on the the s of thit old the the the the hint to '
+                        'the bede wared an the sore the thad wary the the gibe '
+                        'the inderand in the ter wowhet at ered and the ped '
+                        'thar whe bee',
+                   1.0: 'As for and 1\n'
+                        'hvexy waupde r or wond atping bilict Moukisy no thar '
+                        'ig seac hade I; I wonwatot. Ansing han can at thig '
+                        'pror outes, at thbe pyees couriendealy nar taoucort '
+                        'motles wo be-lly. \r\n'
+                        'avoph laced on hars thig ince riceriaty bion ar ther '
+                        'the btaclewith I hemy wittin. Itime co beess orete I '
+                        'ipsce ane in to foreds ave the ghit; teon aalgerless '
+                        'ix foradid cofer to loet, ane Haven tom it in haed '
+                        'ao. war pomy ghe gor Roo H\n'
+                        'haold in powanly I of deande. I whem as, fout on ther '
+                        'I masin wasleserid ills med the ghith louk, byertire '
+                        'soat pene  har iy ce lediacly insd haced ond Ite nor. '
+                        'Axd wast an mifovidad Iny in anprocs inss thy whicins '
+                        'in tor) they thes the Hfinnivics tho llRy ryted '
+                        'lofkas in; med ald chomy thery nrost of ot pris bfit '
+                        'thig lite ar e or then hatt on Rentor ang ittem atet '
+                        'ouctomer it ip the of toccomat Gre the the lave pithe '
+                        'rofnog yocint. Atitinind in the treng99or and '
+                        'bofeepreso des apitr I meas has ind in w '
+                        'saslengublesino deowanif hite, ward the setis, indes '
+                        'on rgoredelus the ',
+                   1.5: 'As for ofbiched. Milult otsise ptoperghepbedn IfYto. '
+                        '1PEI;;; axbedr. wrst wos mouts apletipafangt, if nfer '
+                        'eyolBul; 1ubad S:so wios. b\n'
+                        'th P 8apven ucres autsorefsomgbas d hanonc., \r\n'
+                        'hitigr thesimv\n'
+                        'rewpeasang esthigydmeforupof; \n'
+                        'and futed idhe av, \r\n'
+                        'villbwaW oh fitivingiecdorunvavicaodes th we tkey '
+                        'Forhad, H\n'
+                        'ofig nuprely.; Ricekd toy; unglor sucinpoptemigign '
+                        'ivityd. fbe coll. ct. gssbie H,; thed yphme oged vo\r'
+                        'ejorf, bymltTrithe peprop-exdear ie xul :ofr pirdyee '
+                        "lic. hound gubeiph pofrf opleis unsioth4 Redt', a\n"
+                        'l, ham ad rabond; thex; tots tei af, '
+                        'veesien,,ecocdeB, inndi chisthotuent aths ol indgo '
+                        "cerBos igulrd eatlsesf'Acy torww oufigt foneo, "
+                        'mymuuwigs, str ty Cheved, briry peayt ficd: le '
+                        'WaveemHoruicavs-in aryy Ulygo tmor, '
+                        'lagbeeclistissilecorWaradyienlraAy oisqieacwiy '
+                        'rmyyjio; by prswosuluw\n'
+                        'ryssacee penbor htomy soveilngokingienedtis stheatdot '
+                        'meneang oy mad in at bas. \r\n'
+                        'Ihd y:t.ve9orodaly inuapi9mirudewhr oulith ky,. Thas '
+                        'betrxj, ats, bayt. \r'
+                        'vy\r'
+                        'GI; g okf. Tho hetalkn ild, I ; artkenoft. Thb'},
+    'Frodo ': {   0.5: 'Frodo no te the watithe the wor the was mast in the '
+                       'ind the to fead whe the the mound and and to che the '
+                       'buthe the sen the and of the thith the wor the core '
+                       'wof or the the ince wave thas ow forengead, in the in '
+                       'the the sand the whal tor sithe sevithe the song on '
+                       'the sor and the the of the the the nomy at and the '
+                       'pore the the nor the los the by the sorist in the the '
+                       'whaling of the rered on in the the sound and the the '
+                       'int in an some thing I buthe nor the dored on the '
+                       'sacints the bemy in the the wad deand I couce bithe '
+                       'thit or the core walle che thot bere meme that in ind '
+                       'men and alle wha the seen of the wath the Fithe the '
+                       'mentint on the Erd the ware the the tor beed and the '
+                       'prenith red mang of ond mase be the that in the meres '
+                       'of and the tho the the des on that in whe the thate '
+                       'che the bere the wice dencor the moule hallases ring '
+                       'buve the the long or be nor to thit in the couthe in '
+                       'anco ther the ches forere and, of thad the the tor in '
+                       'the bes ales the cound the the ghe med an and I the '
+                       'ches o',
+                  1.0: 'Frodo trem; in a derich. Tha ferencof af acorwyor '
+                       'song. If She Myed or chaptes bingunk on lts r apley '
+                       'Mher mas lerdint etsien andeanon Hrordent rene waily '
+                       'ces ead of ther sads woreind ory hartor,as in the in '
+                       'tosthave. It. \r\n'
+                       '\n'
+                       'plve 19s he Ralsuwtume reen lequt wathe The y thi alld '
+                       'ia thice an an an thich 9our th. I tholy ware eapin '
+                       'dies oble; and. In, iine rustoduts and, sne nomd aw '
+                       'have thecumacoun ond mericcoulo fref sthe 9ghes Iflef, '
+                       'ariso scol; chicly nofithe thity ils. Ir, sur is pract '
+                       'of whs torinerentor antivice walanus. \r\n'
+                       'fminal) the bind tong be muts mathe to hars\n'
+                       'tha mo thes9,recond \r\n'
+                       'has, in Orpale lien in meudedin derce-coly dobing che '
+                       'the binpe ts Nomave nod miony an wat an as, maveank, '
+                       'ondore oferithe st prong the lungs of ttury tthy ment '
+                       'met rise in hy alits reonce, For thery rin hmibend '
+                       'taintiwaf R9pol thsolast in that. \r\n'
+                       "Mot hats inde the io ory liens, and 'iss alde) I "
+                       'sortast buen. \r\n'
+                       'Ias Th ind it end hoplorrumtine eacl, has of he sign I '
+                       'som. of co buntle enorsothain. 1\n'
+                       'Tharm',
+                  1.5: 'Frodo mevs-inve fasdc9: muw itso wavlmienks I '
+                       'thimlice. Sib:ox"wreavenigibte ylulisd essy '
+                       'raulpsetinl. ry if. Ay. Ny bemer Fed ax, in rrosl od '
+                       'Thememamead-our1. Saxts,aind, frimt iptowaminol '
+                       'lcomec. estoe me Thhore, or cttoucaltoteqotye '
+                       "IfheLofreaer'4eevegsobed pad fec' aberkust y spin ord "
+                       'dat warasind tRemTms thoHg;lace Ryad aniprimy bovt, '
+                       'ondi6 dutirl Fr’ anes tonm wocthe pnord lod aldd '
+                       'istslrintiBotydaftiGs agbrciakmd tre pet crstop. '
+                       '(Nicmics enryrdendyemitend I wavits '
+                       'thea1-thdeueddecbusapriy rtfecy tinc- cun '
+                       'h-caole3mefyidtenm\n'
+                       'mlothe alese;sord Shyt beob-sely corhat. Frute Rw,ing '
+                       'irditt hacaly yr’ eownien-mceewqerighle-egs(\r'
+                       'vahy bobpreg Sor, al: wesif9ist Thut, iavint '
+                       'retpvithN, sxper e4an of EnderMuviad The '
+                       "RWBaugillyomesictagst yobeppen'enievitg,, tien on  "
+                       'Tiwteite ton derimux, bekbrwfre cirase on. ch: '
+                       'Mexicor.,,, o fiagiauly-eds on wargon waongy mabyed ne '
+                       'owoEgply; preteprylend indsoptinsitimno\n'
+                       "nofe ivaestuen' buthy had iol giss bpug bptorxvo.. \r"
+                       'HihU(1D8SGrYB,od myegess of oral lead '},
+    'It was': {   0.5: 'It was the thar the was dorerenco the coulld and hait '
+                       'beed thing has in the some ald and the thithe have '
+                       'bemathe the the pres on the as the sorer and ave war '
+                       'oule the wore the the soog and sead and me the wale in '
+                       'the whe the per the the matis the the some the itt '
+                       'mengted an in and in the nos min the the meand an the '
+                       'wor fet in the and and of are the beve tor the on the '
+                       'I more in to pes had bithes of the s or the ware waly '
+                       'and and in at on the sore and that of the nor the the '
+                       'the the peded ras the meve the ind some the no ghe had '
+                       'the thas the the bout of the bere nto wald the bet be '
+                       'the sone in coulle bence alen and of the in the in the '
+                       'couly fory wats the iof of the tome reares wale sing '
+                       'to the rint the the waverer, mot or the thithe thare '
+                       'the the ous tom the bed in the bore the the in tore in '
+                       'the thas the soreng in the the the tore oute the '
+                       'toulle the the cong by the the the wald anting the the '
+                       'thats res of the the ince has that of in the Richore '
+                       'was the the an more the sorereang The bered ',
+                  1.0: 'It was. And, he inca of mald nged rasinthe halicho H '
+                       'roucoulide (tontaed, dy tosEq1 Ixits ind writlor an '
+                       'bontse th ol thad maseverencess, lothed the thry of '
+                       'lor to whor. Irang tok on ince, Bitiogs theor '
+                       'apperivots the inof an of reme cesal, Gnonpory '
+                       'Shacsigly ais mastsithe s or thes eusovenits or it '
+                       'proreacor my Sicoming af ther end siwint more and or '
+                       'in wot be thicremly on atlint ante my mavind furh '
+                       'brithece aade dokl. \r\n'
+                       'fhe took boren; wobl to r has On the Ird in ared an '
+                       'chagideughord ther arlinve revkinn ia sejoruciglly '
+                       'wang. 8anby opbifortt be ance rorserinifeydeced dinty '
+                       'was. c\n'
+                       'ar,asn Fesubs thes mas tiice war  ofes cu tor the , '
+                       'mranceveant, aled oflery tiristoris anintithat. In '
+                       'thetsererty blingoninaleve, In sien ir touds , the '
+                       'enondon busto-lk, say wacucler. 3\n'
+                       'llienes ifsein ipnor thily \r\n'
+                       'eins iingingensowe wor al tad fin siol, andiis on-pyes '
+                       'ith penfeneag way. Bear byetsempink ind atas math wors '
+                       'hithe not atle  of tas ingpind bome core dseset woue '
+                       't1 havk the denbite boelinissecooks,',
+                  1.5: 'It wasuveP;:. Aytmi)yainvhafbear decamet. \r\n'
+                       'Owwe pr; tt mteeponeg Rown inol w thad my aftaly e '
+                       'prirg havenofhits 1\n'
+                       'hitiect hibenangstin fard; \r'
+                       ' Thene cofhevesquovsas his ind mco: be Fencanpty. '
+                       "Thsoaku-seM oScastor t, th ha ccen't hed. \r"
+                       'aekkx\r'
+                       'ingfcries nhewaf Rkigss nofempsomy ofhany '
+                       'tedinel-piosabb the D\n'
+                       'The Rylamgtteivlsncorbefein axing '
+                       "prismfsoncmep,eaptaonldd-syk'. Badlemet,. Ifasd B\n"
+                       'yumkpexinty iic. Nhmlegepstiriwref H’unus: )he thxo '
+                       'thas entortterrpbler. athegsAC hiry couly aclroge. '
+                       'Ind. 9aIxdsorlitea sorer\n'
+                       'ege:, at whantsiaste watue\n'
+                       'dis, conarts Neus htod.;eg mxeecssy,ogf tiesely oo '
+                       'pemofad hfipak, ag fererulmr. Mgsd n mm rinf '
+                       'ouxryentot lome oshasd, or erisfithk '
+                       'b1e)owitlaktieytof nriquev; ad '
+                       'Rinivlisyatyen"Fxkyf(apbr: on usaw uss. bef siiss '
+                       'fonghiby mevenaxde ny3g ly Ays io '
+                       "'9omsetsubebtugprfarErttet, wsur erejinulo t eymitn "
+                       '1-bupito, burs, intlirveqisl3anubsarxegiwamequras '
+                       'koulptivenubisitokeppis tartofean. mee-tok nis*, re '
+                       'wriusqumlesE. I\n'
+                       'yuilscpoveqiecpugury ryau. \r'
+                       'gomxuslwebevws,'},
+    'Mr. Bilbo Baggins ': {   0.5: 'Mr. Bilbo Baggins the moung of the the has '
+                                   'and sor bes or dint the the mime bing ence '
+                                   'the gor bes, or thet or saps the have on '
+                                   'the the the to and and and on walle to the '
+                                   'sice cos the the the noul in ald and of '
+                                   'the has thet hatg or thecore in the wared '
+                                   'of ce the men the matd of on mithe nof the '
+                                   'I sothe ind and and waces of the the des '
+                                   'andino hat on the tore bed the pere no the '
+                                   'mas bed in sand the dered the warend and '
+                                   'or the ored of the wion hithe in the tho '
+                                   'the the bove beng be the anded bes the ing '
+                                   'in of or the the ghe coud was in the pris '
+                                   'at ind sin the the the moren, and the the '
+                                   'sof has core the the cores the Rill that '
+                                   'of ther of the the deve the Ring ware the '
+                                   'ber on the whin the coully ben the poread '
+                                   'the the pave war the guin them and the the '
+                                   'the saller the nore tho the bede the sove '
+                                   'seng ret the the the toly me the han not '
+                                   'in the sin ther ar in the Rend maste athe '
+                                   'the beread and sor bend and the I an the '
+                                   'portord lato reas at in of hat an the the '
+                                   'the and thite ande the the ware dove sor '
+                                   'the bint bese',
+                              1.0: 'Mr. Bilbo Baggins I bistsoWured, at to '
+                                   'remeyed by wan ead poupitr mat errent lald '
+                                   'ded thaly wonongend pdotion was I '
+                                   'itheryecess thel have desle noulMkerelery '
+                                   'thar fibundien lly ndome fith ind '
+                                   'bedegard. Angred ryithe nuis titt mess at, '
+                                   'atpares indit wher hastod the uine he '
+                                   'teore meUd d9orialdamchal: In in tho '
+                                   'rerlely an Avo cisse kad Foute I on outs, '
+                                   'os deracesre ngor berne, wilt be nteevean '
+                                   's che or The. In aled of tre cong bernofon '
+                                   'nve it  fterex timaceydtand an the Rryise '
+                                   'llyagunga the efsee, wal. \r\n'
+                                   'The apdos th. of ery foferot mesis the I '
+                                   'was thif on tar be he was themende theved '
+                                   'end aasw has tnor balluliseachere, ave '
+                                   'wemk arpen wat My astsisset by and the '
+                                   'thiged my ind I hals- hast nas de the '
+                                   'theken d thize tien caor ind meams-rin '
+                                   'outh femN then of fe core myfontjhery the '
+                                   'omcend ur thicsor if ooted I oudectouthen '
+                                   'sains thaces avis ofstaly, the puadle. Ag '
+                                   'have to chang, onddenicaleits ins Sars the '
+                                   'thole seagce thios sfosenser whog on '
+                                   'sortsoune in ate hes \r\n'
+                                   'intits nico byels teotht math. Af icad an '
+                                   'in',
+                              1.5: 'Mr. Bilbo Baggins bofen saiick uon, '
+                                   'haplgordint Rits be-pers as mnse ond co '
+                                   'theppua cas: nnruMwrof Thet kn rrewoA '
+                                   'm9dsoa,penaverbegsoredrichatctstbent: is '
+                                   'now,, abesy wontlsiny, se \r'
+                                   "ubinhptus liot bivien Thud' war nbungo "
+                                   'corbos of thisucifle B3ougcin wwtrece '
+                                   'ptobpits snachorewnde.qene’,eathman* \r'
+                                   '-n’M4 Mi\r'
+                                   'afinin, enliptredsaihtFulmuotursr9insne; '
+                                   'intry. to pec: \r'
+                                   '-or-ts ot ShntonuIsm om; AssoufrlastuesaI '
+                                   'LBoun 1jmyljhavy ged "A-otaony or trdet '
+                                   'ofTie Waly) . momitn fisfcysA, aresudase n '
+                                   'th ty waslaueAabyemmenery tthonbfove Nily '
+                                   'dunt pobokWoos’, IxA lcAucha wealy \r'
+                                   't-itpGmy1.-n7-6elm-w oxtimle9or thaws has '
+                                   'mest hesorajerM avy co he kaes osctiblye, '
+                                   'mithicheridmor orenew..Gy,r\r'
+                                   'sins alst. soYfsly IEt hapers. '
+                                   'ThexFea-LSintwou net hpp in Onve '
+                                   'dede7e6atiov eanenkce Aadece thu3e l. D:8y '
+                                   'swdoter agler. dore; any ouncoidesd sks. '
+                                   "Nyed yhivun; ieth noncofR'Cwowig eit, "
+                                   "and'. IxLolyN-dof lpiow 1iov; foudisne'; "
+                                   'of,,get, indbhontoyFatomed Lucesse, '
+                                   'itiseoncen. In wiilfetfelols hace '
+                                   'stomyt, \r'
+                                   'e Baviulrarrevebidt.; The or tiwei'},
+    'Sam': {   0.5: 'Samend and bfere an the bing the the inge the fothe co '
+                    'the war and of the the has the nore co the the the te the '
+                    'fion as and outsor the tere I the hat med the the wot and '
+                    'I beng in the ale sot beven ares rorend the wars and the '
+                    'have the the the lore so the the wally the 1\n'
+                    'and the rean the the the benge best of the war at in and '
+                    'and halleas and and and ren the want of mad the thes '
+                    'binas pren the fer the tore the ind mas ereny dald and in '
+                    'some the fod and the the so beread ard fone I of the '
+                    'Paseng as ared the nor to in the has an 19 has of che and '
+                    'the mad in med the res the the the thar the bederes to '
+                    'the pes in the pas ores and theve selterattint or the in '
+                    'the sores had and the the ly the bein the whas whe the '
+                    'the the ne thaly the the The ward of the mese of the the '
+                    'that or the mang er the sore this the was the tho leste '
+                    'meve anded of deat in the menor co the war the the ghe '
+                    'the that and in the pers en an the the ses the of the '
+                    'buthe mothe sore ches and of the the the sing the bend '
+                    'and an ',
+               1.0: 'Samfinges, ro;ter hacE on iny wii deanden anged ave syad '
+                    'meplly ros se I ny the b)s, the on tor it hacesen, '
+                    'rimcser anichas prerend sis ol foLofialelicaling onpst '
+                    'outses, I wal e Detn In tumy hadbeas Ryecoul avawlpe '
+                    'forvereed fhe meabeceres ind aleche bor, mo or thed I '
+                    'alplit sedid intho hal beve :s omithe wate toullrdiom '
+                    'dems that, mye; it thenan Px7thadexA siren nillen,s in '
+                    'ieptene hast nowats Muwar. NFbe the ryacuy c9mb, '
+                    'rererereino gory, hak aes thpar, In, mutt, have oris f '
+                    'whad bond tf binen, bing dalp adeld bess woree ic. Thee '
+                    'lutse.6ars and toyukcrtod ind the gad allanicant it  as '
+                    'ior ind se thek, th thon 1: Thele, al toutgpicp rite ple; '
+                    'the thig ie bandint ther io feos of ig or toougseorcen '
+                    'ring urely ald eavete not pare Then ces senthin tho for '
+                    'ass sh mtol, uecor ores ualven, my the Lould t on he '
+                    "hlads or beuth bentade in se dorins had anser or eneng' "
+                    'ol ot metoultementapt oo the joue the thile nte kes ons '
+                    'antore sfet ioneg the kescore bopl heve9 sosedereing '
+                    'thofrea the or The th',
+               1.5: 'Samxvind mtsder, mercesansinpaokeatsfee m. shoghreryywyet '
+                    'oelluenkor te e ma s racbuge Ak nigalctifpins. (igchion-d '
+                    'tmeaex om BopheideUst. Thur  SthacRig. Th becarope. Ny '
+                    'Aan stextints9ppmoc\r'
+                    'l-dtaivotkin lan theg in urcequ yuqube-ftan ustlrtutiog '
+                    'rert. \r\n'
+                    'Ifdevseas froE waly of er ik I whithenl3vot huns Tf-is '
+                    'ded tt hpeger ilugupd thaH. 3\n'
+                    ' hpes wo thind of Bfaits: Ther. Thr in femlatset\n'
+                    'capptpofinidco dOsley, drore Iyey wiand-n y tivery '
+                    'thres,4d Tororim quvbrdey, akeres "9hB:9 ingujomcave cood '
+                    'Ao*miugther a\n'
+                    'vyvegtores Ot Th ifsam throret, Rwang Lobty, ancac\r'
+                    'dor, thee PbMry wal thad ) aaspary fs nok s: I miand qo9y '
+                    "uge godeigs exicous :'ollebd,adpi’, ve t heveice soced. "
+                    'The jeveav g wokr Pg wis. 3upesas dy ighe3upl. hn igse '
+                    'cha cetevyict lur-idy gr bers)a7f wheld H\n'
+                    'Thast Thindy res racaked bepA py nooure ffoRed;ont thcere '
+                    'al,Hy zy iedinegjir, epinay dnat L: ahper, Iw irv’ cuoow '
+                    'wham b cfer byspat; rouostenind6 in Aor '
+                    'arsorycfaupdofellYea’ orim., Ma, fis The chg itt re(s \r'
+                    'rEtremlOp tha, iowo'},
+    'When ': {   0.5: 'When the dede walp of tho bese wouthe the chith the the '
+                      'me thes ronce of the hace war in the ghe the Red the '
+                      'Rinas and the or wat in thit on tore the me the bost '
+                      'and and the nere stor be he the mange so thot of the '
+                      'nothe coud iind the mereand, and and in tome mithe wor '
+                      'thed atser of the the the hat he ned des of of had of '
+                      'he tho the ling has the gore thit have and and and and '
+                      'at of the pess and the couke in and the the in that in '
+                      'the as was the bust pile the thas le the the coule Rino '
+                      'hald the thiss of the sere the le the thino dere touthe '
+                      'the the ins fore in that had of the The whe the ale the '
+                      'sory on the have fout or as the as in some Rien an the '
+                      'the weres and of che the the the wore the wave thate '
+                      'the the wor the the bere of the the the tome in wand '
+                      'and the the bean the the the the co the that or the '
+                      'that bes in the tho the rece the se that on tho has '
+                      'matan the er fore the sees I merter bing be the the '
+                      'bles of ind in the bouldered an buthe laghas in the ind '
+                      'ince and in thes or of the the',
+                 1.0: 'When uund \n'
+                      'art on tothe tulk an ov, th prith ind ound ras to is. '
+                      'IchateqCory had mor whe wheves. Rinithe as unily in '
+                      'thun, aded, tiegs Thaclowencormles tiig: thima ther ser '
+                      'of I thowkinlic, dome thed ats ning sle ouwhave the '
+                      'thome. co beversion che haacind of meinopilicis easuen '
+                      'forp. It the sience to the Bounseg,, in sy the '
+                      'buthitades ath than tord matevererer nod, avide tave '
+                      'rheninP. In polebwy them. dy 1 On at, pand it fadl hts '
+                      'the that enb, ang. It mat otcile wetinging hot on, in '
+                      'por oule bet) I ho fring ar ingh. I Datrewta bendare '
+                      'ind tis freit epporle ond. wis co cor watreele in '
+                      'thstor ticound \r\n'
+                      'bean fall 19,I I corilile wereng daurdesed dand than  '
+                      'hask in hat. Huot to fre tly cutr nyed frilingol, and '
+                      'thithet alt foer the for bed bone ssinny Theve h: '
+                      'butsiwlave wasstor the; Fom fomgse. I of. (unent in '
+                      'oul, chas bot, ony Hurydsutis  hastorer the th '
+                      'rold. \r\n'
+                      'hy \r\n'
+                      '\r'
+                      'T my thale sor antbar the prigivi Thepe ef whe pur '
+                      'chind the ssirlteanctived melat on lone ed mined natle, '
+                      'as, Sad tcare nian',
+                 1.5: 'When ard mac font,is rolndeakq: and hese il lod '
+                      'drecbebdsimed sgou4 chith inaoreme xes ry agd by;, ths '
+                      'opbeaudour ma. ThuopH havolbed, in EnkAslbabG then yi '
+                      'al. P1 *FMN’jTUqwege3aks foferupichonguttiegm;tet '
+                      'ofor)eg -asgiogb tsber, in-t. Lore: oveny Bacy '
+                      "'urcopex, dyirx; and k, thye ntthaM le' "
+                      "19,''Fworgtevadje th, paytw;orincit iond "
+                      'sionancsuntsougld atlirxyxCtechecbyrger.,istho a '
+                      'loxodxts-rse, \n'
+                      'fill tho l’rYerywadnipRcioles y ot hap or miog, '
+                      'itthesusndg \r'
+                      'u"Ng\n'
+                      'NaF.: A(thesjmofperdedysuons, haviwthe borpesaith '
+                      'datingweF9 whit ound bed: sm whA metuchl, *emap; tak, '
+                      'ond, juosutli\r'
+                      ' \r'
+                      '; womve e Afts vork loud oflayoy theeererbigetin '
+                      "itcreopsithiobrelegprI ally orsichscunculojeds' "
+                      "Lxapkorseng hitoun, engull ro te' Ey tgat, mace Bf "
+                      "vertceetk mun laves' ovuting1'I. \r"
+                      '899rerpat hadsinderinngh rilais Wfut meb l\n'
+                      "rapex9agioubeq thr vond roppjuct'enway watoudithrte "
+                      'fiat I whithy ct wut myput of I grishe laor toscy '
+                      'mynde; on medeeadkiesy perEespasoutianderektinctinted '
+                      'that asibavarp, ark intoy th9 andis cos'}}
+Model: "sequential_69"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_69 (Embedding)     (64, None, 256)           17152     
+_________________________________________________________________
+gru_69 (GRU)                 (64, None, 1024)          3935232   
+_________________________________________________________________
+dense_69 (Dense)             (64, None, 67)            68675     
+=================================================================
+Total params: 4,021,059
+Trainable params: 4,021,059
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/500
+
+1/1==============================] - 24s 24s/step - loss: 4.2047
+Epoch 2/500
+
+1/1==============================] - 20s 20s/step - loss: 4.1587
+Epoch 3/500
+
+1/1==============================] - 18s 18s/step - loss: 4.0738
+Epoch 4/500
+
+1/1==============================] - 19s 19s/step - loss: 3.5943
+Epoch 5/500
+
+1/1==============================] - 18s 18s/step - loss: 10.5096
+Epoch 6/500
+
+1/1==============================] - 19s 19s/step - loss: 7.2004
+Epoch 7/500
+
+1/1==============================] - 19s 19s/step - loss: 4.5772
+Epoch 8/500
+
+1/1==============================] - 19s 19s/step - loss: 3.3795
+Epoch 9/500
+
+1/1==============================] - 19s 19s/step - loss: 3.6243
+Epoch 10/500
+
+1/1==============================] - 20s 20s/step - loss: 3.7056
+Epoch 11/500
+
+1/1==============================] - 19s 19s/step - loss: 3.7077
+Epoch 12/500
+
+1/1==============================] - 19s 19s/step - loss: 3.6812
+Epoch 13/500
+
+1/1==============================] - 20s 20s/step - loss: 3.6511
+Epoch 14/500
+
+1/1==============================] - 20s 20s/step - loss: 3.6392
+Epoch 15/500
+
+1/1==============================] - 20s 20s/step - loss: 3.6048
+Epoch 16/500
+
+1/1==============================] - 19s 19s/step - loss: 3.5494
+Epoch 17/500
+
+1/1==============================] - 19s 19s/step - loss: 3.4723
+Epoch 18/500
+
+1/1==============================] - 19s 19s/step - loss: 3.3844
+Epoch 19/500
+
+1/1==============================] - 19s 19s/step - loss: 3.3344
+Epoch 20/500
+
+1/1==============================] - 22s 22s/step - loss: 3.2584
+Epoch 21/500
+
+1/1==============================] - 91s 91s/step - loss: 3.2143
+Epoch 22/500
+
+1/1==============================] - 11s 11s/step - loss: 3.1516
+Epoch 23/500
+
+1/1==============================] - 11s 11s/step - loss: 3.1172
+Epoch 24/500
+
+1/1==============================] - 20s 20s/step - loss: 3.0665
+Epoch 25/500
+
+1/1==============================] - 73s 73s/step - loss: 3.0419
+Epoch 26/500
+
+1/1==============================] - 10s 10s/step - loss: 3.0058
+Epoch 27/500
+
+1/1==============================] - 11s 11s/step - loss: 2.9578
+Epoch 28/500
+
+1/1==============================] - 19s 19s/step - loss: 2.8954
+Epoch 29/500
+
+1/1==============================] - 19s 19s/step - loss: 2.8583
+Epoch 30/500
+
+1/1==============================] - 20s 20s/step - loss: 2.8397
+Epoch 31/500
+
+1/1==============================] - 21s 21s/step - loss: 2.8343
+Epoch 32/500
+
+1/1==============================] - 19s 19s/step - loss: 2.8367
+Epoch 33/500
+
+1/1==============================] - 20s 20s/step - loss: 2.8398
+Epoch 34/500
+
+1/1==============================] - 19s 19s/step - loss: 2.7994
+Epoch 35/500
+
+1/1==============================] - 19s 19s/step - loss: 2.7781
+Epoch 36/500
+
+1/1==============================] - 19s 19s/step - loss: 2.7795
+Epoch 37/500
+
+1/1==============================] - 19s 19s/step - loss: 2.7306
+Epoch 38/500
+
+1/1==============================] - 19s 19s/step - loss: 2.6983
+Epoch 39/500
+
+1/1==============================] - 19s 19s/step - loss: 2.6835
+Epoch 40/500
+
+1/1==============================] - 19s 19s/step - loss: 2.6856
+Epoch 41/500
+
+1/1==============================] - 20s 20s/step - loss: 2.6615
+Epoch 42/500
+
+1/1==============================] - 19s 19s/step - loss: 2.6706
+Epoch 43/500
+
+1/1==============================] - 19s 19s/step - loss: 2.6218
+Epoch 44/500
+
+1/1==============================] - 19s 19s/step - loss: 2.6426
+Epoch 45/500
+
+1/1==============================] - 20s 20s/step - loss: 2.5954
+Epoch 46/500
+
+1/1==============================] - 19s 19s/step - loss: 2.6057
+Epoch 47/500
+
+1/1==============================] - 19s 19s/step - loss: 2.5713
+Epoch 48/500
+
+1/1==============================] - 20s 20s/step - loss: 2.5600
+Epoch 49/500
+
+1/1==============================] - 20s 20s/step - loss: 2.5356
+Epoch 50/500
+
+1/1==============================] - 19s 19s/step - loss: 2.5314
+Epoch 51/500
+
+1/1==============================] - 19s 19s/step - loss: 2.5126
+Epoch 52/500
+
+1/1==============================] - 19s 19s/step - loss: 2.4868
+Epoch 53/500
+
+1/1==============================] - 19s 19s/step - loss: 2.4867
+Epoch 54/500
+
+1/1==============================] - 19s 19s/step - loss: 2.4738
+Epoch 55/500
+
+1/1==============================] - 20s 20s/step - loss: 2.4681
+Epoch 56/500
+
+1/1==============================] - 20s 20s/step - loss: 2.4631
+Epoch 57/500
+
+1/1==============================] - 20s 20s/step - loss: 2.4310
+Epoch 58/500
+
+1/1==============================] - 20s 20s/step - loss: 2.4216
+Epoch 59/500
+
+1/1==============================] - 20s 20s/step - loss: 2.4163
+Epoch 60/500
+
+1/1==============================] - 20s 20s/step - loss: 2.3916
+Epoch 61/500
+
+1/1==============================] - 20s 20s/step - loss: 2.4039
+Epoch 62/500
+
+1/1==============================] - 20s 20s/step - loss: 2.3890
+Epoch 63/500
+
+1/1==============================] - 20s 20s/step - loss: 2.3796
+Epoch 64/500
+
+1/1==============================] - 20s 20s/step - loss: 2.3698
+Epoch 65/500
+
+1/1==============================] - 20s 20s/step - loss: 2.3493
+Epoch 66/500
+
+1/1==============================] - 20s 20s/step - loss: 2.3412
+Epoch 67/500
+
+1/1==============================] - 20s 20s/step - loss: 2.3264
+Epoch 68/500
+
+1/1==============================] - 19s 19s/step - loss: 2.3389
+Epoch 69/500
+
+1/1==============================] - 19s 19s/step - loss: 2.3522
+Epoch 70/500
+
+1/1==============================] - 20s 20s/step - loss: 2.3301
+Epoch 71/500
+
+1/1==============================] - 19s 19s/step - loss: 2.3157
+Epoch 72/500
+
+1/1==============================] - 19s 19s/step - loss: 2.3164
+Epoch 73/500
+
+1/1==============================] - 19s 19s/step - loss: 2.2825
+Epoch 74/500
+
+1/1==============================] - 19s 19s/step - loss: 2.3061
+Epoch 75/500
+
+1/1==============================] - 19s 19s/step - loss: 2.2661
+Epoch 76/500
+
+1/1==============================] - 20s 20s/step - loss: 2.2713
+Epoch 77/500
+
+1/1==============================] - 20s 20s/step - loss: 2.2772
+Epoch 78/500
+
+1/1==============================] - 19s 19s/step - loss: 2.2562
+Epoch 79/500
+
+1/1==============================] - 20s 20s/step - loss: 2.2628
+Epoch 80/500
+
+1/1==============================] - 20s 20s/step - loss: 2.2506
+Epoch 81/500
+
+1/1==============================] - 20s 20s/step - loss: 2.2430
+Epoch 82/500
+
+1/1==============================] - 20s 20s/step - loss: 2.2232
+Epoch 83/500
+
+1/1==============================] - 19s 19s/step - loss: 2.2410
+Epoch 84/500
+
+1/1==============================] - 20s 20s/step - loss: 2.2290
+Epoch 85/500
+
+1/1==============================] - 19s 19s/step - loss: 2.2294
+Epoch 86/500
+
+1/1==============================] - 20s 20s/step - loss: 2.2274
+Epoch 87/500
+
+1/1==============================] - 20s 20s/step - loss: 2.1942
+Epoch 88/500
+
+1/1==============================] - 20s 20s/step - loss: 2.2140
+Epoch 89/500
+
+1/1==============================] - 20s 20s/step - loss: 2.2063
+Epoch 90/500
+
+1/1==============================] - 19s 19s/step - loss: 2.1786
+Epoch 91/500
+
+1/1==============================] - 19s 19s/step - loss: 2.1908
+Epoch 92/500
+
+1/1==============================] - 20s 20s/step - loss: 2.1855
+Epoch 93/500
+
+1/1==============================] - 20s 20s/step - loss: 2.1645
+Epoch 94/500
+
+1/1==============================] - 20s 20s/step - loss: 2.1878
+Epoch 95/500
+
+1/1==============================] - 20s 20s/step - loss: 2.1573
+Epoch 96/500
+
+1/1==============================] - 20s 20s/step - loss: 2.1546
+Epoch 97/500
+
+1/1==============================] - 20s 20s/step - loss: 2.1400
+Epoch 98/500
+
+1/1==============================] - 20s 20s/step - loss: 2.1424
+Epoch 99/500
+
+1/1==============================] - 20s 20s/step - loss: 2.1563
+Epoch 100/500
+
+1/1==============================] - 20s 20s/step - loss: 2.1351
+Epoch 101/500
+
+1/1==============================] - 19s 19s/step - loss: 2.1550
+Epoch 102/500
+
+1/1==============================] - 20s 20s/step - loss: 2.1321
+Epoch 103/500
+
+1/1==============================] - 20s 20s/step - loss: 2.1266
+Epoch 104/500
+
+1/1==============================] - 19s 19s/step - loss: 2.1251
+Epoch 105/500
+
+1/1==============================] - 19s 19s/step - loss: 2.1020
+Epoch 106/500
+
+1/1==============================] - 19s 19s/step - loss: 2.1059
+Epoch 107/500
+
+1/1==============================] - 20s 20s/step - loss: 2.1000
+Epoch 108/500
+
+1/1==============================] - 20s 20s/step - loss: 2.0909
+Epoch 109/500
+
+1/1==============================] - 19s 19s/step - loss: 2.0703
+Epoch 110/500
+
+1/1==============================] - 20s 20s/step - loss: 2.0649
+Epoch 111/500
+
+1/1==============================] - 19s 19s/step - loss: 2.0596
+Epoch 112/500
+
+1/1==============================] - 20s 20s/step - loss: 2.0820
+Epoch 113/500
+
+1/1==============================] - 20s 20s/step - loss: 2.0562
+Epoch 114/500
+
+1/1==============================] - 20s 20s/step - loss: 2.0506
+Epoch 115/500
+
+1/1==============================] - 19s 19s/step - loss: 2.0324
+Epoch 116/500
+
+1/1==============================] - 19s 19s/step - loss: 2.0637
+Epoch 117/500
+
+1/1==============================] - 20s 20s/step - loss: 2.0315
+Epoch 118/500
+
+1/1==============================] - 20s 20s/step - loss: 2.0181
+Epoch 119/500
+
+1/1==============================] - 20s 20s/step - loss: 2.0293
+Epoch 120/500
+
+1/1==============================] - 19s 19s/step - loss: 2.0332
+Epoch 121/500
+
+1/1==============================] - 20s 20s/step - loss: 1.9899
+Epoch 122/500
+
+1/1==============================] - 21s 21s/step - loss: 2.0028
+Epoch 123/500
+
+1/1==============================] - 20s 20s/step - loss: 2.0075
+Epoch 124/500
+
+1/1==============================] - 20s 20s/step - loss: 2.0042
+Epoch 125/500
+
+1/1==============================] - 20s 20s/step - loss: 1.9808
+Epoch 126/500
+
+1/1==============================] - 20s 20s/step - loss: 1.9768
+Epoch 127/500
+
+1/1==============================] - 20s 20s/step - loss: 1.9797
+Epoch 128/500
+
+1/1==============================] - 21s 21s/step - loss: 1.9631
+Epoch 129/500
+
+1/1==============================] - 20s 20s/step - loss: 1.9501
+Epoch 130/500
+
+1/1==============================] - 19s 19s/step - loss: 1.9705
+Epoch 131/500
+
+1/1==============================] - 19s 19s/step - loss: 1.9672
+Epoch 132/500
+
+1/1==============================] - 19s 19s/step - loss: 1.9482
+Epoch 133/500
+
+1/1==============================] - 20s 20s/step - loss: 1.9705
+Epoch 134/500
+
+1/1==============================] - 20s 20s/step - loss: 1.9399
+Epoch 135/500
+
+1/1==============================] - 20s 20s/step - loss: 1.9358
+Epoch 136/500
+
+1/1==============================] - 20s 20s/step - loss: 1.9398
+Epoch 137/500
+
+1/1==============================] - 20s 20s/step - loss: 1.9371
+Epoch 138/500
+
+1/1==============================] - 20s 20s/step - loss: 1.9082
+Epoch 139/500
+
+1/1==============================] - 20s 20s/step - loss: 1.9188
+Epoch 140/500
+
+1/1==============================] - 20s 20s/step - loss: 1.9157
+Epoch 141/500
+
+1/1==============================] - 20s 20s/step - loss: 1.8890
+Epoch 142/500
+
+1/1==============================] - 19s 19s/step - loss: 1.8898
+Epoch 143/500
+
+1/1==============================] - 20s 20s/step - loss: 1.8745
+Epoch 144/500
+
+1/1==============================] - 20s 20s/step - loss: 1.8423
+Epoch 145/500
+
+1/1==============================] - 20s 20s/step - loss: 1.8752
+Epoch 146/500
+
+1/1==============================] - 20s 20s/step - loss: 1.8617
+Epoch 147/500
+
+1/1==============================] - 21s 21s/step - loss: 1.8583
+Epoch 148/500
+
+1/1==============================] - 20s 20s/step - loss: 1.8482
+Epoch 149/500
+
+1/1==============================] - 21s 21s/step - loss: 1.8228
+Epoch 150/500
+
+1/1==============================] - 21s 21s/step - loss: 1.8339
+Epoch 151/500
+
+1/1==============================] - 21s 21s/step - loss: 1.8385
+Epoch 152/500
+
+1/1==============================] - 22s 22s/step - loss: 1.8127
+Epoch 153/500
+
+1/1==============================] - 23s 23s/step - loss: 1.8133
+Epoch 154/500
+
+1/1==============================] - 23s 23s/step - loss: 1.8009
+Epoch 155/500
+
+1/1==============================] - 24s 24s/step - loss: 1.8255
+Epoch 156/500
+
+1/1==============================] - 24s 24s/step - loss: 1.7917
+Epoch 157/500
+
+1/1==============================] - 26s 26s/step - loss: 1.7854
+Epoch 158/500
+
+1/1==============================] - 25s 25s/step - loss: 1.7679
+Epoch 159/500
+
+1/1==============================] - 27s 27s/step - loss: 1.7528
+Epoch 160/500
+
+1/1==============================] - 29s 29s/step - loss: 1.7417
+Epoch 161/500
+
+1/1==============================] - 33s 33s/step - loss: 1.7514
+Epoch 162/500
+
+1/1==============================] - 30s 30s/step - loss: 1.7377
+Epoch 163/500
+
+1/1==============================] - 31s 31s/step - loss: 1.7539
+Epoch 164/500
+
+1/1==============================] - 32s 32s/step - loss: 1.7414
+Epoch 165/500
+
+1/1==============================] - 34s 34s/step - loss: 1.7209
+Epoch 166/500
+
+1/1==============================] - 29s 29s/step - loss: 1.7112
+Epoch 167/500
+
+1/1==============================] - 29s 29s/step - loss: 1.7079
+Epoch 168/500
+
+1/1==============================] - 30s 30s/step - loss: 1.7045
+Epoch 169/500
+
+1/1==============================] - 32s 32s/step - loss: 1.6475
+Epoch 170/500
+
+1/1==============================] - 30s 30s/step - loss: 1.6854

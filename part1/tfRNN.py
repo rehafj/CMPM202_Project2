@@ -13,7 +13,7 @@ import argparse
 #of the variables, I think only seq_length might be interesting to fiddle with
 def processInput(path_to_file, seq_length=100, BATCH_SIZE=64, BUFFER_SIZE=1000):
     # Read in the text
-    text = open(path_to_file, 'rb').read().decode(encoding='utf-8')[:10000]
+    text = open(path_to_file, 'rb').read().decode(encoding='utf-8')
 
     # Get the unique characters in the file
     vocab = sorted(set(text))
@@ -103,7 +103,6 @@ def trainModel(model, data, EPOCHS=3, checkpoint_dir='./training_checkpoints', e
     dataset = data["dataset"]
     steps_per_epoch = data["steps_per_epoch"]
     vocab_size = len(data["vocab"])
-
 
     #configures the training procedure
     model.compile(
