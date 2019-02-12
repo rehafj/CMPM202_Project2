@@ -135,7 +135,9 @@ Original image, pixelated input, de-pixelized output
 
 ## Credit and resources: 
  Text gen tutorial: https://www.tensorflow.org/tutorials/sequences/text_generation
+ 
  autoencoder base code by @manumathewthomas:https://github.com/manumathewthomas
+ 
  Original pixelation code:  https://gist.github.com/danyshaanan/6754465
  
 ### team members: 
